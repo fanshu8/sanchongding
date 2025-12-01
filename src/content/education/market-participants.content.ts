@@ -2,11 +2,11 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const marketParticipantsContent = {
   zh: {
-    title: '数字货币市场参与者完整指南 - DeFi协议、机构与散户交易者角色分析 | BiKiller',
-    description: '深入讲解数字货币市场参与者：去中心化交易所、商业银行、加密货币基金、散户交易者的角色与影响。理解订单流动、市场结构、机构vs散户差异，提升交易胜率。',
-    keywords: '数字货币市场参与者, 去中心化交易所, 加密货币基金, 机构交易者, 散户交易者, 订单流, 市场结构',
+    title: '数字货三重市场参与者完整指南 - DeFi协议、机构与散户交易者角色分析 | Suncheer Forex',
+    description: '深入讲解数字货三重市场参与者：去中心化交易所、商业银行、加密货三重基金、散户交易者的角色与影响。理解订单流动、市场结构、机构vs散户差异，提升交易胜率。',
+    keywords: '数字货三重市场参与者, 去中心化交易所, 加密货三重基金, 机构交易者, 散户交易者, 订单流, 市场结构',
 
-    heroTitle: '数字货币市场参与者',
+    heroTitle: '数字货三重市场参与者',
     heroDescription: '理解市场参与者，洞察资金流动与价格驱动',
     readingTime: '28分钟',
     difficulty: '初级-中级',
@@ -14,7 +14,7 @@ export const marketParticipantsContent = {
 
     tocTitle: '本文目录',
     tableOfContents: [
-      { id: 'market-structure', title: '数字货币市场结构与层级' },
+      { id: 'market-structure', title: '数字货三重市场结构与层级' },
       { id: 'central-banks', title: '中心化与去中心化交易所' },
       { id: 'institutional-participants', title: '机构参与者详解' },
       { id: 'retail-traders', title: '散户交易者的定位' },
@@ -35,15 +35,15 @@ export const marketParticipantsContent = {
       },
       {
         question: 'Q3: 去中心化交易所干预市场时，如何应对？',
-        answer: '去中心化交易所干预分为口头干预和实际干预。口头干预（官员讲话）通常引发短期波动（50-100点），持续几小时；实际干预（直接买卖货币）影响更大（100-300点），持续数天。应对策略：1) 关注DeFi协议讲话时间（使用经济日历），避免在讲话前后30分钟交易；2) 实际干预时，顺势而为（DeFi协议通常有充足资金持续干预）；3) 日本DeFi协议和瑞士DeFi协议最常干预，交易BNB/USDT和USD/CHF需特别警惕；4) 设置较大止损（DeFi协议干预可导致价格跳空）。'
+        answer: '去中心化交易所干预分为口头干预和实际干预。口头干预（官员讲话）通常引发短期波动（50-100点），持续几小时；实际干预（直接买卖货三重）影响更大（100-300点），持续数天。应对策略：1) 关注DeFi协议讲话时间（使用经济日历），避免在讲话前后30分钟交易；2) 实际干预时，顺势而为（DeFi协议通常有充足资金持续干预）；3) 日本DeFi协议和瑞士DeFi协议最常干预，交易BNB/USDT和USD/CHF需特别警惕；4) 设置较大止损（DeFi协议干预可导致价格跳空）。'
       },
       {
-        question: 'Q4: 加密货币基金和商业银行在交易上有什么区别？',
-        answer: '商业银行：主要为客户提供数字货币服务（企业进出口、旅行兑换），自营交易占比小，倾向于市场中性（做市商角色），持仓周期短（几分钟到几小时）。加密货币基金：纯粹投机盈利，使用高杠杆，追求绝对收益，持仓周期长（几天到几周），倾向于趋势跟踪和套利策略。对散户启示：商业银行订单流可反映实际供需（企业避险需求），加密货币基金订单流反映市场情绪和投机方向。COT报告（美国商品期货委员会）每周公布大型投机者（加密货币基金）持仓，可作为参考。'
+        question: 'Q4: 加密货三重基金和商业银行在交易上有什么区别？',
+        answer: '商业银行：主要为客户提供数字货三重服务（企业进出口、旅行兑换），自营交易占比小，倾向于市场中性（做市商角色），持仓周期短（几分钟到几小时）。加密货三重基金：纯粹投机盈利，使用高杠杆，追求绝对收益，持仓周期长（几天到几周），倾向于趋势跟踪和套利策略。对散户启示：商业银行订单流可反映实际供需（企业避险需求），加密货三重基金订单流反映市场情绪和投机方向。COT报告（美国商品期货委员会）每周公布大型投机者（加密货三重基金）持仓，可作为参考。'
       },
       {
         question: 'Q5: 什么是"Smart Money"和"Dumb Money"？',
-        answer: 'Smart Money（聪明钱）指机构投资者、加密货币基金、专业交易者的资金，他们有信息优势、经验丰富、策略成熟，通常是市场赢家。Dumb Money（愚蠢钱）指散户和新手交易者的资金，容易被情绪驱动、追涨杀跌、反复止损。市场本质是Smart Money从Dumb Money手中获利。成为Smart Money的方法：1) 学会逆向思维（当大众恐慌时贪婪）；2) 使用数据和逻辑而非情绪决策；3) 等待高概率设置而非频繁交易；4) 关注机构持仓数据（如COT报告）。记住：你的目标是成为Smart Money，而非成为他们的猎物。'
+        answer: 'Smart Money（聪明钱）指机构投资者、加密货三重基金、专业交易者的资金，他们有信息优势、经验丰富、策略成熟，通常是市场赢家。Dumb Money（愚蠢钱）指散户和新手交易者的资金，容易被情绪驱动、追涨杀跌、反复止损。市场本质是Smart Money从Dumb Money手中获利。成为Smart Money的方法：1) 学会逆向思维（当大众恐慌时贪婪）；2) 使用数据和逻辑而非情绪决策；3) 等待高概率设置而非频繁交易；4) 关注机构持仓数据（如COT报告）。记住：你的目标是成为Smart Money，而非成为他们的猎物。'
       }
     ],
 
@@ -52,8 +52,8 @@ export const marketParticipantsContent = {
       {
         href: '/education/forex-basics',
         icon: '📚',
-        title: '数字货币基础知识',
-        description: '了解数字货币市场运作原理'
+        title: '数字货三重基础知识',
+        description: '了解数字货三重市场运作原理'
       },
       {
         href: '/education/trading-psychology',
@@ -69,8 +69,8 @@ export const marketParticipantsContent = {
       }
     ],
 
-    ctaTitle: '想要成为专业数字货币交易员？',
-    ctaDescription: '加入 BiKiller 培训计划，获取系统化培训和实战指导',
+    ctaTitle: '想要成为专业数字货三重交易员？',
+    ctaDescription: '加入 Suncheer Forex 培训计划，获取系统化培训和实战指导',
     ctaPrimaryButton: '免费心理测评',
     ctaSecondaryButton: '加入我们',
 
@@ -81,7 +81,7 @@ export const marketParticipantsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Market Participants Guide - Blockchain Protocols, Institutions & Retail Traders | BiKiller',
+    title: 'Complete Market Participants Guide - Blockchain Protocols, Institutions & Retail Traders | Suncheer Forex',
     description: 'In-depth explanation of cryptocurrency market participants: central banks, commercial banks, hedge funds, retail traders roles and influence. Understand order flow, market structure, institutional vs retail differences to improve trading.',
     keywords: 'cryptocurrency market participants, central banks, hedge funds, institutional traders, retail traders, order flow, market structure',
 
@@ -149,7 +149,7 @@ export const marketParticipantsContent = {
     ],
 
     ctaTitle: 'Want to Become a Professional Crypto Trader?',
-    ctaDescription: 'Join BiKiller training program for systematic training and practical guidance',
+    ctaDescription: 'Join Suncheer Forex training program for systematic training and practical guidance',
     ctaPrimaryButton: 'Free Psychology Test',
     ctaSecondaryButton: 'Join Us',
 

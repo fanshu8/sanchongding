@@ -2,8 +2,8 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const keltnerChannelsContent = {
   zh: {
-    title: '肯特纳通道指标完整指南 - Keltner Channels交易策略与实战技巧 | BiKiller',
-    description: '深入讲解肯特纳通道（Keltner Channels）指标：计算公式、参数设置、与布林带的区别。结合实战案例，掌握KC指标在数字货币交易中的突破策略和趋势跟踪应用。',
+    title: '肯特纳通道指标完整指南 - Keltner Channels交易策略与实战技巧 | Suncheer Forex',
+    description: '深入讲解肯特纳通道（Keltner Channels）指标：计算公式、参数设置、与布林带的区别。结合实战案例，掌握KC指标在数字货三重交易中的突破策略和趋势跟踪应用。',
     keywords: '肯特纳通道, Keltner Channels, KC指标, 肯特纳通道策略, ATR通道, 技术分析指标, 波动性指标',
 
     heroTitle: '肯特纳通道指标完整指南',
@@ -35,7 +35,7 @@ export const keltnerChannelsContent = {
       },
       {
         question: 'Q3: 价格突破KC通道后一定会形成趋势吗？',
-        answer: '不一定。假突破在数字货币市场很常见。有效突破需要满足：1) 收盘价突破，而非影线；2) 伴随成交量放大；3) 突破后价格在通道外持续至少2-3根K线；4) 配合其他指标确认（如MACD金叉、RSI走强）。建议等待突破回踩确认后再入场，虽然错过部分利润，但大幅降低假突破风险。'
+        answer: '不一定。假突破在数字货三重市场很常见。有效突破需要满足：1) 收盘价突破，而非影线；2) 伴随成交量放大；3) 突破后价格在通道外持续至少2-3根K线；4) 配合其他指标确认（如MACD金叉、RSI走强）。建议等待突破回踩确认后再入场，虽然错过部分利润，但大幅降低假突破风险。'
       },
       {
         question: 'Q4: 如何使用KC设置止损和止盈？',
@@ -70,7 +70,7 @@ export const keltnerChannelsContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 BiKiller 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 Suncheer Forex 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const keltnerChannelsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Keltner Channels Guide - KC Trading Strategies and Practical Techniques | BiKiller',
+    title: 'Complete Keltner Channels Guide - KC Trading Strategies and Practical Techniques | Suncheer Forex',
     description: 'In-depth explanation of Keltner Channels indicator: calculation formulas, parameter settings, differences from Bollinger Bands. Master KC breakout strategies and trend following in cryptocurrency trading.',
     keywords: 'Keltner Channels, KC indicator, KC strategy, ATR channels, technical analysis, volatility indicator',
 
@@ -149,7 +149,7 @@ export const keltnerChannelsContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join BiKiller training to master more practical technical indicator applications',
+    ctaDescription: 'Join Suncheer Forex training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

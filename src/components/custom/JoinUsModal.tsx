@@ -53,7 +53,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
               {/* Content */}
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-black dark:bg-white flex items-center justify-center">
-                  <span className="text-white dark:text-black font-bold text-2xl">Bi</span>
+                  <span className="text-white dark:text-black font-bold text-2xl">Suncheer</span>
                 </div>
 
                 <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
@@ -61,7 +61,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                 </h2>
 
                 <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                  欢迎加入 BiKiller 数字货币交易员培训！我们致力于培养下一代专业数字货币交易员。
+                  欢迎加入 Suncheer Forex 数字货三重交易员培训！我们致力于培养下一代专业数字货三重交易员。
                 </p>
 
                 <div className="bg-gray-50 dark:bg-gray-900 p-6 mb-6 border border-gray-200 dark:border-gray-700">
@@ -107,7 +107,7 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                 </div>
 
                 <p className="mt-6 text-xs text-gray-500 dark:text-gray-400">
-                  我们期待与您一起开启数字货币交易生涯！
+                  我们期待与您一起开启数字货三重交易生涯！
                 </p>
               </div>
             </div>

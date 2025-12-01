@@ -2,8 +2,8 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const macdIndicatorContent = {
   zh: {
-    title: 'MACD指标完整指南 - MACD交易策略与实战技巧 | BiKiller',
-    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图的计算公式，金叉死叉信号，背离形态识别。掌握MACD在数字货币交易中的趋势确认和动能分析应用。',
+    title: 'MACD指标完整指南 - MACD交易策略与实战技巧 | Suncheer Forex',
+    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图的计算公式，金叉死叉信号，背离形态识别。掌握MACD在数字货三重交易中的趋势确认和动能分析应用。',
     keywords: 'MACD指标, MACD策略, 金叉死叉, MACD背离, DIF DEA, 技术分析指标, 趋势指标',
 
     heroTitle: 'MACD指标完整指南',
@@ -70,7 +70,7 @@ export const macdIndicatorContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 BiKiller 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 Suncheer Forex 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const macdIndicatorContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete MACD Guide - MACD Trading Strategies and Practical Techniques | BiKiller',
+    title: 'Complete MACD Guide - MACD Trading Strategies and Practical Techniques | Suncheer Forex',
     description: 'In-depth explanation of MACD indicator: DIF, DEA, histogram calculations, golden/death cross signals, divergence pattern recognition. Master MACD trend confirmation and momentum analysis in cryptocurrency.',
     keywords: 'MACD indicator, MACD strategy, golden cross, MACD divergence, DIF DEA, technical analysis, trend indicator',
 
@@ -149,7 +149,7 @@ export const macdIndicatorContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join BiKiller training to master more practical technical indicator applications',
+    ctaDescription: 'Join Suncheer Forex training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

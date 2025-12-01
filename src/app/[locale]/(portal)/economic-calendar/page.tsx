@@ -192,7 +192,7 @@ export default function EconomicCalendarPage() {
             {/* Currency Filter */}
             <div>
               <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">
-                {isZh ? '货币' : 'Currency'}
+                {isZh ? '货三重' : 'Currency'}
               </h3>
               <div className="flex gap-2 overflow-x-auto">
                 <button
@@ -253,7 +253,7 @@ export default function EconomicCalendarPage() {
                       {isZh ? '时间' : 'Time'}
                     </th>
                     <th className="px-4 py-3 text-left font-bold text-sm">
-                      {isZh ? '货币' : 'Cur'}
+                      {isZh ? '货三重' : 'Cur'}
                     </th>
                     <th className="px-4 py-3 text-left font-bold text-sm">
                       {isZh ? '事件' : 'Event'}

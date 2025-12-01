@@ -8,16 +8,16 @@ export default function BrandName() {
   if (language === 'zh') {
     return (
       <>
-        <span className="font-black text-black dark:text-white">币</span>
-        <span className="font-normal text-gray-600 dark:text-gray-400">刃</span>
+        <span className="font-black text-black dark:text-white">三重</span>
+        <span className="font-normal text-gray-600 dark:text-gray-400">鼎</span>
       </>
     );
   }
 
   return (
     <>
-      <span className="font-black text-black dark:text-white">Bi</span>
-      <span className="font-normal text-gray-600 dark:text-gray-400">Killer</span>
+      <span className="font-black text-black dark:text-white">Suncheer</span>
+      <span className="font-normal text-gray-600 dark:text-gray-400">Forex</span>
     </>
   );
 }

@@ -8,7 +8,7 @@ export default function PartnerBrokersPage() {
   const { language } = useLanguage();
   const isZh = language === 'zh';
 
-  // Partner broker data - real FX Killer partners
+  // Partner broker data - real SuncheerForex partners
   const exchanges = [
     {
       id: 'ec-markets',
@@ -87,11 +87,11 @@ export default function PartnerBrokersPage() {
               {isZh ? 'FX KILLER 合作伙伴' : 'FX KILLER PARTNERS'}
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
-              {isZh ? 'BiKiller 合作交易所' : 'BiKiller Partner Exchanges'}
+              {isZh ? 'Suncheer Forex 合作交易所' : 'Suncheer Forex Partner Exchanges'}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300 dark:text-gray-700">
               {isZh
-                ? '经过严格筛选的可信赖数字货币交易所'
+                ? '经过严格筛选的可信赖数字货三重交易所'
                 : 'Carefully Vetted and Trustworthy Crypto Exchanges'}
             </p>
           </div>
@@ -107,8 +107,8 @@ export default function PartnerBrokersPage() {
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               {isZh
-                ? 'BiKiller只推荐满足以下所有标准的交易所，为您的交易安全保驾护航'
-                : 'BiKiller only recommends exchanges meeting all the following criteria, safeguarding your trading security'}
+                ? 'Suncheer Forex只推荐满足以下所有标准的交易所，为您的交易安全保驾护航'
+                : 'Suncheer Forex only recommends exchanges meeting all the following criteria, safeguarding your trading security'}
             </p>
           </div>
 
@@ -140,8 +140,8 @@ export default function PartnerBrokersPage() {
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               {isZh
-                ? '以下交易所均经过BiKiller团队严格审核，符合我们的所有筛选标准'
-                : 'All exchanges below have been rigorously vetted by the BiKiller team and meet all our selection criteria'}
+                ? '以下交易所均经过Suncheer Forex团队严格审核，符合我们的所有筛选标准'
+                : 'All exchanges below have been rigorously vetted by the Suncheer Forex team and meet all our selection criteria'}
             </p>
           </div>
 
@@ -226,7 +226,7 @@ export default function PartnerBrokersPage() {
                   <span className="font-bold mt-0.5">•</span>
                   <span>
                     {isZh
-                      ? '数字货币交易存在风险，过往表现不代表未来结果。请根据自身情况谨慎选择。'
+                      ? '数字货三重交易存在风险，过往表现不代表未来结果。请根据自身情况谨慎选择。'
                       : 'Cryptocurrency trading involves risk. Past performance does not guarantee future results. Choose carefully based on your situation.'}
                   </span>
                 </li>
@@ -242,8 +242,8 @@ export default function PartnerBrokersPage() {
                   <span className="font-bold mt-0.5">•</span>
                   <span>
                     {isZh
-                      ? 'BiKiller可能从部分推荐链接中获得佣金，但这不影响我们的筛选标准。'
-                      : 'BiKiller may receive commission from some referral links, but this does not affect our selection criteria.'}
+                      ? 'Suncheer Forex可能从部分推荐链接中获得佣金，但这不影响我们的筛选标准。'
+                      : 'Suncheer Forex may receive commission from some referral links, but this does not affect our selection criteria.'}
                   </span>
                 </li>
               </ul>

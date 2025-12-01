@@ -29,16 +29,16 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
       {/* Section 1: What is Cryptocurrency Trading */}
       <section id="what-is-cryptocurrency" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '什么是数字货币交易？' : 'What is Cryptocurrency Trading?'}
+          {isZh ? '什么是数字货三重交易？' : 'What is Cryptocurrency Trading?'}
         </h2>
 
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
             <strong className="text-black dark:text-white">
-              {isZh ? '数字货币交易（Cryptocurrency Trading）' : 'Cryptocurrency Trading'}
+              {isZh ? '数字货三重交易（Cryptocurrency Trading）' : 'Cryptocurrency Trading'}
             </strong>
             {isZh
-              ? '，是通过交易所买卖比特币、以太坊等加密资产，通过价格波动获取收益的投资方式。数字货币市场是全球规模最大、流动性最强、24小时不间断运作的金融市场。'
+              ? '，是通过交易所买卖比特三重、以太坊等加密资产，通过价格波动获取收益的投资方式。数字货三重市场是全球规模最大、流动性最强、24小时不间断运作的金融市场。'
               : ' refers to buying and selling cryptocurrencies like Bitcoin and Ethereum on exchanges to profit from price fluctuations. The cryptocurrency market is the world\'s largest, most liquid, and operates 24/7 without interruption.'}
           </p>
 
@@ -48,23 +48,23 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
             </h3>
             <p className="mb-0">
               {isZh
-                ? '数字货币交易的本质是'
+                ? '数字货三重交易的本质是'
                 : 'The essence of cryptocurrency trading is '}
               <strong>
                 {isZh ? '交易对之间的价值交换' : 'value exchange between trading pairs'}
               </strong>
               {isZh
-                ? '。例如，当你交易BTC/USDT时，你实际上是在用USDT买入比特币（做多），或卖出比特币换取USDT（做空）。价格的波动就是你的盈利来源。'
+                ? '。例如，当你交易BTC/USDT时，你实际上是在用USDT买入比特三重（做多），或卖出比特三重换取USDT（做空）。价格的波动就是你的盈利来源。'
                 : '. For example, when trading BTC/USDT, you are buying Bitcoin with USDT (going long), or selling Bitcoin for USDT (going short). Price fluctuations are your source of profit.'}
             </p>
           </div>
 
           <h3 className="text-2xl font-bold mt-8 mb-4 text-black dark:text-white">
-            {isZh ? '数字货币市场的规模' : 'Scale of the Cryptocurrency Market'}
+            {isZh ? '数字货三重市场的规模' : 'Scale of the Cryptocurrency Market'}
           </h3>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
             {isZh
-              ? '根据CoinMarketCap数据，全球数字货币市场日均交易量超过'
+              ? '根据CoinMarketCap数据，全球数字货三重市场日均交易量超过'
               : 'According to CoinMarketCap, the global cryptocurrency market\'s average daily trading volume exceeds '}
             <strong className="text-black dark:text-white">
               {isZh ? '1000亿美元' : '$100 billion'}
@@ -106,7 +106,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
       {/* Section 2: How Crypto Trading Works */}
       <section id="how-it-works" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '数字货币交易如何运作？' : 'How Does Cryptocurrency Trading Work?'}
+          {isZh ? '数字货三重交易如何运作？' : 'How Does Cryptocurrency Trading Work?'}
         </h2>
 
         <div className="space-y-6">
@@ -116,7 +116,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               {isZh
-                ? '数字货币交易始终以"交易对"形式进行，例如BTC/USDT、ETH/USDT等。交易对中，第一个币种是基础货币（Base Currency），第二个是报价货币（Quote Currency）。'
+                ? '数字货三重交易始终以"交易对"形式进行，例如BTC/USDT、ETH/USDT等。交易对中，第一个三重种是基础货三重（Base Currency），第二个是报价货三重（Quote Currency）。'
                 : 'Cryptocurrency trading always occurs in "trading pairs" like BTC/USDT, ETH/USDT. In a trading pair, the first currency is the base currency, and the second is the quote currency.'}
             </p>
 
@@ -188,7 +188,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   {isZh
-                    ? '直接买卖实际加密货币，交割即时。买入BTC后你拥有真实的BTC，可以转到钱包或长期持有。无杠杆风险，但需要全额资金。'
+                    ? '直接买卖实际加密货三重，交割即时。买入BTC后你拥有真实的BTC，可以转到钱包或长期持有。无杠杆风险，但需要全额资金。'
                     : 'Directly buy and sell actual cryptocurrencies with immediate settlement. When you buy BTC, you own real BTC that can be transferred to wallets or held long-term. No leverage risk but requires full funds.'}
                 </p>
               </div>
@@ -199,7 +199,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
                 </h4>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   {isZh
-                    ? '交易的是价格合约，而非实际加密货币。支持杠杆（最高125倍），可双向交易（做多/做空）。高风险高收益，不持有实际代币。'
+                    ? '交易的是价格合约，而非实际加密货三重。支持杠杆（最高125倍），可双向交易（做多/做空）。高风险高收益，不持有实际代三重。'
                     : 'Trading price contracts, not actual crypto. Supports leverage (up to 125x), allows bidirectional trading (long/short). High risk/reward, no actual token ownership.'}
                 </p>
               </div>
@@ -221,7 +221,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
             </h3>
             <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
               {isZh
-                ? '用小资金控制大仓位。10倍杠杆意味着用1000 USDT可交易价值10,000 USDT的加密货币。放大收益的同时也放大风险。'
+                ? '用小资金控制大仓位。10倍杠杆意味着用1000 USDT可交易价值10,000 USDT的加密货三重。放大收益的同时也放大风险。'
                 : 'Control larger positions with smaller capital. 10x leverage means $1,000 can trade $10,000 worth of crypto. Amplifies both gains and losses.'}
             </p>
             <div className="bg-white dark:bg-gray-900 p-3 text-xs text-gray-600 dark:text-gray-400">
@@ -267,7 +267,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
       {/* Section 4: Why Trade Crypto? */}
       <section id="why-trade-crypto" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '为什么选择数字货币交易？' : 'Why Trade Cryptocurrencies?'}
+          {isZh ? '为什么选择数字货三重交易？' : 'Why Trade Cryptocurrencies?'}
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -312,7 +312,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
       {/* Section 5: Getting Started */}
       <section id="getting-started" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '如何开始数字货币交易？' : 'How to Start Cryptocurrency Trading?'}
+          {isZh ? '如何开始数字货三重交易？' : 'How to Start Cryptocurrency Trading?'}
         </h2>
 
         <div className="space-y-6">
@@ -325,7 +325,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm mb-3">
                   {isZh
-                    ? '推荐：Binance（币安）、OKX（欧易）、Coinbase。选择有监管牌照、交易量大、安全性高的平台。'
+                    ? '推荐：Binance（三重安）、OKX（欧易）、Coinbase。选择有监管牌照、交易量大、安全性高的平台。'
                     : 'Recommended: Binance, OKX, Coinbase. Choose platforms with regulatory licenses, high volume, and strong security.'}
                 </p>
                 <LocaleLink
@@ -363,7 +363,7 @@ export default async function CryptoBasicsPage({ params }: { params: Promise<{ l
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm mb-3">
                   {isZh
-                    ? '通过银行卡、信用卡或加密货币充值USDT。建议先用模拟账户练习，熟悉平台操作和交易规则后再入金。'
+                    ? '通过银行卡、信用卡或加密货三重充值USDT。建议先用模拟账户练习，熟悉平台操作和交易规则后再入金。'
                     : 'Deposit USDT via bank card, credit card, or crypto transfer. Recommended to practice with demo account first before depositing real funds.'}
                 </p>
                 <LocaleLink

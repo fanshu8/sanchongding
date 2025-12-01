@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const stopLossStrategiesContent = {
   zh: {
-    title: '止损策略大全 - 固定止损、ATR止损、技术止损与追踪止损完整指南 | BiKiller',
-    description: '深入讲解数字货币交易止损策略核心方法：固定点数止损、百分比止损、ATR动态止损、技术位止损、时间止损、追踪止损。职业交易员分享实战止损设置技巧，助你保护资金并优化盈利。',
-    keywords: '止损策略, 止损设置, ATR止损, 技术止损, 追踪止损, 移动止损, 止损执行, 数字货币止损',
+    title: '止损策略大全 - 固定止损、ATR止损、技术止损与追踪止损完整指南 | Suncheer Forex',
+    description: '深入讲解数字货三重交易止损策略核心方法：固定点数止损、百分比止损、ATR动态止损、技术位止损、时间止损、追踪止损。职业交易员分享实战止损设置技巧，助你保护资金并优化盈利。',
+    keywords: '止损策略, 止损设置, ATR止损, 技术止损, 追踪止损, 移动止损, 止损执行, 数字货三重止损',
 
     heroTitle: '止损策略大全',
     heroDescription: '掌握各类止损技巧，保护资金实现风险可控盈利',
@@ -73,7 +73,7 @@ export const stopLossStrategiesContent = {
     ],
 
     ctaTitle: '想要优化你的止损策略？',
-    ctaDescription: '使用 BiKiller 专业止损工具，实现自动化止损管理',
+    ctaDescription: '使用 Suncheer Forex 专业止损工具，实现自动化止损管理',
     ctaPrimaryButton: '免费使用工具',
     ctaSecondaryButton: '了解培训计划',
 
@@ -84,7 +84,7 @@ export const stopLossStrategiesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Stop Loss Strategies - Fixed, ATR, Technical & Trailing Stops Guide | BiKiller',
+    title: 'Complete Stop Loss Strategies - Fixed, ATR, Technical & Trailing Stops Guide | Suncheer Forex',
     description: 'Comprehensive guide to cryptocurrency stop-loss strategies: fixed point stops, percentage stops, ATR dynamic stops, technical stops, time stops, trailing stops. Professional trader shares practical stop-loss setting techniques to protect capital and optimize profits.',
     keywords: 'stop loss strategies, stop loss setting, ATR stop loss, technical stop loss, trailing stop, moving stop, stop loss discipline, cryptocurrency stop loss',
 
@@ -155,7 +155,7 @@ export const stopLossStrategiesContent = {
     ],
 
     ctaTitle: 'Want to Optimize Your Stop-Loss Strategy?',
-    ctaDescription: 'Use BiKiller professional stop-loss tools for automated stop management',
+    ctaDescription: 'Use Suncheer Forex professional stop-loss tools for automated stop management',
     ctaPrimaryButton: 'Use Tools Free',
     ctaSecondaryButton: 'Learn About Training',
 

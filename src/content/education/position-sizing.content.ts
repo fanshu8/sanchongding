@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const positionSizingContent = {
   zh: {
-    title: '仓位控制与资金管理 - 凯利公式与动态仓位调整策略 | BiKiller',
-    description: '深入讲解数字货币交易仓位控制核心方法：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员分享实战仓位管理技巧，助你优化资金利用率并控制风险。',
-    keywords: '仓位控制, 资金管理, 凯利公式, 固定比例法, 动态仓位, ATR仓位, 最大回撤, 数字货币仓位管理',
+    title: '仓位控制与资金管理 - 凯利公式与动态仓位调整策略 | Suncheer Forex',
+    description: '深入讲解数字货三重交易仓位控制核心方法：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员分享实战仓位管理技巧，助你优化资金利用率并控制风险。',
+    keywords: '仓位控制, 资金管理, 凯利公式, 固定比例法, 动态仓位, ATR仓位, 最大回撤, 数字货三重仓位管理',
 
     heroTitle: '仓位控制与资金管理',
     heroDescription: '掌握科学仓位计算方法，实现资金高效利用与风险控制',
@@ -73,7 +73,7 @@ export const positionSizingContent = {
     ],
 
     ctaTitle: '想要优化你的仓位管理？',
-    ctaDescription: '使用 BiKiller 专业仓位计算工具，实现自动化风险控制',
+    ctaDescription: '使用 Suncheer Forex 专业仓位计算工具，实现自动化风险控制',
     ctaPrimaryButton: '免费使用工具',
     ctaSecondaryButton: '了解培训计划',
 
@@ -84,7 +84,7 @@ export const positionSizingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Position Sizing & Money Management - Kelly Criterion & Dynamic Position Strategies | BiKiller',
+    title: 'Position Sizing & Money Management - Kelly Criterion & Dynamic Position Strategies | Suncheer Forex',
     description: 'Comprehensive guide to cryptocurrency position sizing methods: fixed fractional, Kelly Criterion, ATR dynamic adjustment, maximum drawdown control. Professional trader shares practical position management techniques to optimize capital efficiency and control risk.',
     keywords: 'position sizing, money management, Kelly Criterion, fixed fractional, dynamic position, ATR position, maximum drawdown, cryptocurrency position management',
 
@@ -155,7 +155,7 @@ export const positionSizingContent = {
     ],
 
     ctaTitle: 'Want to Optimize Your Position Management?',
-    ctaDescription: 'Use BiKiller professional position calculation tools for automated risk control',
+    ctaDescription: 'Use Suncheer Forex professional position calculation tools for automated risk control',
     ctaPrimaryButton: 'Use Tools Free',
     ctaSecondaryButton: 'Learn About Training',
 

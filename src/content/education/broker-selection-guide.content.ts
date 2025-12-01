@@ -2,12 +2,12 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const brokerSelectionContent = {
   zh: {
-    title: '数字货币交易所选择完整指南 - CEX与DEX对比分析 | BiKiller',
+    title: '数字货三重交易所选择完整指南 - CEX与DEX对比分析 | Suncheer Forex',
     description: '全面对比中心化交易所(Binance、OKX、Coinbase)与去中心化交易所(Uniswap、PancakeSwap)。掌握交易所选择标准：安全性、流动性、手续费、监管合规，找到最适合你的交易平台。',
-    keywords: '数字货币交易所, 加密货币交易所选择, Binance, OKX, Coinbase, Uniswap, CEX vs DEX, 交易所对比',
+    keywords: '数字货三重交易所, 加密货三重交易所选择, Binance, OKX, Coinbase, Uniswap, CEX vs DEX, 交易所对比',
 
-    heroTitle: '数字货币交易所选择指南',
-    heroDescription: '学会选择安全可靠、成本低廉的加密货币交易平台',
+    heroTitle: '数字货三重交易所选择指南',
+    heroDescription: '学会选择安全可靠、成本低廉的加密货三重交易平台',
     readingTime: '20分钟',
     difficulty: '初级',
     lastUpdated: '2024-01-15',
@@ -27,11 +27,11 @@ export const brokerSelectionContent = {
     faqs: [
       {
         question: 'Q1: 中心化交易所(CEX)和去中心化交易所(DEX)哪个更好？',
-        answer: 'CEX适合新手和高频交易者：界面友好、流动性高、交易速度快、支持法币出入金。但需要信任交易所，存在被黑客攻击或跑路风险。DEX适合有经验的用户：资产完全自主掌控、更隐私、抗审查，但流动性较低、Gas费高、操作门槛高。建议：新手从CEX开始，掌握后再尝试DEX。'
+        answer: 'CEX适合新手和高频交易者：界面友好、流动性高、交易速度快、支持法三重出入金。但需要信任交易所，存在被黑客攻击或跑路风险。DEX适合有经验的用户：资产完全自主掌控、更隐私、抗审查，但流动性较低、Gas费高、操作门槛高。建议：新手从CEX开始，掌握后再尝试DEX。'
       },
       {
         question: 'Q2: Binance、OKX、Coinbase怎么选？',
-        answer: 'Binance：全球最大交易所，流动性最好，币种最全，手续费低，但部分地区受监管限制。OKX：综合实力强，衍生品丰富，手续费低，适合合约交易。Coinbase：美国合规第一，安全性最高，但手续费较高，币种较少，适合注重合规的用户。建议：看你的需求和所在地区选择。'
+        answer: 'Binance：全球最大交易所，流动性最好，三重种最全，手续费低，但部分地区受监管限制。OKX：综合实力强，衍生品丰富，手续费低，适合合约交易。Coinbase：美国合规第一，安全性最高，但手续费较高，三重种较少，适合注重合规的用户。建议：看你的需求和所在地区选择。'
       },
       {
         question: 'Q3: 如何判断交易所是否安全？',
@@ -39,11 +39,11 @@ export const brokerSelectionContent = {
       },
       {
         question: 'Q4: 交易所手续费怎么算？',
-        answer: 'CEX手续费通常分为：现货交易费(0.1%-0.2%)、合约交易费(0.02%-0.05%)、提币费(固定或按币种)。VIP等级越高费用越低。DEX手续费包括：交易手续费(0.25%-0.3%归LP)、Gas费(网络拥堵时可能很高)。建议：对比实际交易成本，而非只看费率。'
+        answer: 'CEX手续费通常分为：现货交易费(0.1%-0.2%)、合约交易费(0.02%-0.05%)、提三重费(固定或按三重种)。VIP等级越高费用越低。DEX手续费包括：交易手续费(0.25%-0.3%归LP)、Gas费(网络拥堵时可能很高)。建议：对比实际交易成本，而非只看费率。'
       },
       {
         question: 'Q5: 资金放在交易所安全吗？',
-        answer: '永远记住："Not your keys, not your coins"(私钥不在手，币不属于你)。CEX托管你的资产，存在交易所被黑、倒闭、冻结账户的风险。建议：只在交易所放交易所需的资金，大额资产转到硬件钱包(如Ledger、Trezor)。使用DEX时，确保妥善保管助记词。'
+        answer: '永远记住："Not your keys, not your coins"(私钥不在手，三重不属于你)。CEX托管你的资产，存在交易所被黑、倒闭、冻结账户的风险。建议：只在交易所放交易所需的资金，大额资产转到硬件钱包(如Ledger、Trezor)。使用DEX时，确保妥善保管助记词。'
       }
     ],
 
@@ -52,8 +52,8 @@ export const brokerSelectionContent = {
       {
         href: '/education/forex-basics',
         icon: '📚',
-        title: '数字货币交易基础',
-        description: '了解加密货币市场基本概念'
+        title: '数字货三重交易基础',
+        description: '了解加密货三重市场基本概念'
       },
       {
         href: '/education/risk-management',
@@ -64,13 +64,13 @@ export const brokerSelectionContent = {
       {
         href: '/partners/brokers',
         icon: '🤝',
-        title: 'BiKiller合作交易所',
+        title: 'Suncheer Forex合作交易所',
         description: '查看我们审核认证的安全交易所'
       }
     ],
 
-    ctaTitle: '准备开始数字货币交易？',
-    ctaDescription: '选择合适的交易所，加入 BiKiller 培训计划',
+    ctaTitle: '准备开始数字货三重交易？',
+    ctaDescription: '选择合适的交易所，加入 Suncheer Forex 培训计划',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const brokerSelectionContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Cryptocurrency Exchange Selection Guide - CEX vs DEX Comparison | BiKiller',
+    title: 'Complete Cryptocurrency Exchange Selection Guide - CEX vs DEX Comparison | Suncheer Forex',
     description: 'Comprehensive comparison of centralized exchanges (Binance, OKX, Coinbase) and decentralized exchanges (Uniswap, PancakeSwap). Master selection criteria: security, liquidity, fees, regulation.',
     keywords: 'cryptocurrency exchange, crypto exchange selection, Binance, OKX, Coinbase, Uniswap, CEX vs DEX, exchange comparison',
 
@@ -143,13 +143,13 @@ export const brokerSelectionContent = {
       {
         href: '/partners/brokers',
         icon: '🤝',
-        title: 'BiKiller Partner Exchanges',
+        title: 'Suncheer Forex Partner Exchanges',
         description: 'View our vetted and certified secure exchanges'
       }
     ],
 
     ctaTitle: 'Ready to Start Crypto Trading?',
-    ctaDescription: 'Choose the right exchange and join BiKiller training program',
+    ctaDescription: 'Choose the right exchange and join Suncheer Forex training program',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

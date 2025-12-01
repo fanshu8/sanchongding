@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const leverageMarginContent = {
   zh: {
-    title: '数字货币杠杆与保证金完整指南 - 深度解析交易杠杆原理与风险 | BiKiller',
-    description: '全面讲解数字货币杠杆和保证金机制：杠杆比例选择、保证金计算、强制平仓规则、爆仓风险管理。帮助交易者理性使用杠杆，避免过度交易，实现稳健盈利。',
-    keywords: '数字货币杠杆, 杠杆交易, 杠杆比例, 强制平仓, 爆仓, 保证金计算, 杠杆风险, 数字货币风险管理',
+    title: '数字货三重杠杆与保证金完整指南 - 深度解析交易杠杆原理与风险 | Suncheer Forex',
+    description: '全面讲解数字货三重杠杆和保证金机制：杠杆比例选择、保证金计算、强制平仓规则、爆仓风险管理。帮助交易者理性使用杠杆，避免过度交易，实现稳健盈利。',
+    keywords: '数字货三重杠杆, 杠杆交易, 杠杆比例, 强制平仓, 爆仓, 保证金计算, 杠杆风险, 数字货三重风险管理',
 
     heroTitle: '杠杆与保证金详解',
     heroDescription: '深入理解杠杆机制，掌握保证金管理的核心原则',
@@ -27,7 +27,7 @@ export const leverageMarginContent = {
     faqs: [
       {
         question: 'Q1: 杠杆越高越好吗？',
-        answer: '绝对不是！高杠杆是双刃剑。虽然高杠杆可以用更少资金开仓，但同时也放大了风险。1:500杠杆下，市场波动0.2%就可能导致爆仓。建议：新手使用1:50-1:100杠杆，有经验者可用1:100-1:200。真正的专业交易员往往使用较低杠杆，通过严格风险管理实现稳定盈利。'
+        answer: '绝对不是！高杠杆是双鼎剑。虽然高杠杆可以用更少资金开仓，但同时也放大了风险。1:500杠杆下，市场波动0.2%就可能导致爆仓。建议：新手使用1:50-1:100杠杆，有经验者可用1:100-1:200。真正的专业交易员往往使用较低杠杆，通过严格风险管理实现稳定盈利。'
       },
       {
         question: 'Q2: 如何计算需要的保证金？',
@@ -43,7 +43,7 @@ export const leverageMarginContent = {
       },
       {
         question: 'Q5: 杠杆交易和股票融资融券有什么区别？',
-        answer: '主要区别：1) 杠杆比例：数字货币可达1:500，股票通常1:2-1:5；2) 交易时间：数字货币24小时，股票有固定交易时段；3) 利息成本：数字货币只有隔夜持仓利息，股票融资有持续利息；4) 双向交易：数字货币天然支持做空，股票融券较复杂。但核心风险原理相同：都是借钱交易，都会放大盈亏。'
+        answer: '主要区别：1) 杠杆比例：数字货三重可达1:500，股票通常1:2-1:5；2) 交易时间：数字货三重24小时，股票有固定交易时段；3) 利息成本：数字货三重只有隔夜持仓利息，股票融资有持续利息；4) 双向交易：数字货三重天然支持做空，股票融券较复杂。但核心风险原理相同：都是借钱交易，都会放大盈亏。'
       }
     ],
 
@@ -70,7 +70,7 @@ export const leverageMarginContent = {
     ],
 
     ctaTitle: '想要学习专业的杠杆管理策略？',
-    ctaDescription: '加入 BiKiller 培训，掌握职业交易员的风险控制技巧',
+    ctaDescription: '加入 Suncheer Forex 培训，掌握职业交易员的风险控制技巧',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const leverageMarginContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Guide to Cryptocurrency Leverage and Margin - Deep Dive into Trading Mechanisms | BiKiller',
+    title: 'Complete Guide to Cryptocurrency Leverage and Margin - Deep Dive into Trading Mechanisms | Suncheer Forex',
     description: 'Comprehensive explanation of cryptocurrency leverage and margin: leverage ratio selection, margin calculation, margin call rules, liquidation risk management. Learn to use leverage rationally for stable profitability.',
     keywords: 'cryptocurrency leverage, leverage trading, leverage ratio, margin call, liquidation, margin calculation, leverage risk, cryptocurrency risk management',
 
@@ -149,7 +149,7 @@ export const leverageMarginContent = {
     ],
 
     ctaTitle: 'Want to Master Professional Leverage Management?',
-    ctaDescription: 'Join BiKiller training to learn professional risk control techniques',
+    ctaDescription: 'Join Suncheer Forex training to learn professional risk control techniques',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -38,8 +38,8 @@ export default function ParticleTestPage() {
           <AnimatedText key={key} loop={false} />
         </div>
         <div className="mt-4 text-center text-gray-600 dark:text-gray-400">
-          <p>✨ "汇"字整体翻转，"刃"字拆分为点+刀</p>
-          <p>✨ "X"为两条斜线交叉，"Killer"逐字弹入</p>
+          <p>✨ "汇"字整体翻转，"鼎"字拆分为点+刀</p>
+          <p>✨ "X"为两条斜线交叉，"Forex"逐字弹入</p>
           <p>✨ 3D 效果，流畅自然，性能优秀</p>
         </div>
       </div>
@@ -68,14 +68,14 @@ export default function ParticleTestPage() {
           方案3：粒子动画
         </h2>
 
-        {/* 汇刃动画 */}
+        {/* 三重鼎动画 */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-center mb-4 text-black dark:text-white">
-            汇刃
+            三重鼎
           </h3>
           <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-gray-900">
             <ParticleText
-              text="汇刃"
+              text="三重鼎"
               fontSize={100}
               color="#000000"
               particleCount={3000}

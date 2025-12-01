@@ -184,7 +184,7 @@ export default async function BollingerBandsPage({ params }: { params: Promise<{
                   <tr className="bg-gray-50 dark:bg-gray-800 border border-black dark:border-white">
                     <td className="border border-black dark:border-white p-3 font-bold">(20, 2.5)</td>
                     <td className="border border-black dark:border-white p-3">
-                      {isZh ? '高波动市场（如加密货币、新闻行情）' : 'High volatility markets (e.g., crypto, news events)'}
+                      {isZh ? '高波动市场（如加密货三重、新闻行情）' : 'High volatility markets (e.g., crypto, news events)'}
                     </td>
                     <td className="border border-black dark:border-white p-3">
                       {isZh ? '带宽更宽，减少假突破信号' : 'Wider bands, reduces false breakout signals'}
@@ -246,7 +246,7 @@ export default async function BollingerBandsPage({ params }: { params: Promise<{
             <ul className="list-disc pl-6 space-y-1 text-sm">
               <li>
                 {isZh
-                  ? '不同市场特性：股票通常(20, 2)，数字货币可尝试(20, 2.5)，加密货币可能需要(20, 3)'
+                  ? '不同市场特性：股票通常(20, 2)，数字货三重可尝试(20, 2.5)，加密货三重可能需要(20, 3)'
                   : 'Different market characteristics: stocks typically (20, 2), cryptocurrency try (20, 2.5), crypto may need (20, 3)'}
               </li>
               <li>

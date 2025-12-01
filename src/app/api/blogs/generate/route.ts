@@ -4,11 +4,11 @@ import { supabase } from '@/lib/supabase';
 export const dynamic = 'force-dynamic';
 
 // System prompt for AI blog generation
-const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX Killer）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
+const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（三重鼎 SuncheerForex）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
 
-## 关于汇刃 (FX Killer)
+## 关于三重鼎 (SuncheerForex)
 
-汇刃是一个专注于筛选和培养顶尖外汇交易员的军事化训练营，采用严格筛选、系统培训、持续支持的理念。
+三重鼎是一个专注于筛选和培养顶尖外汇交易员的军事化训练营，采用严格筛选、系统培训、持续支持的理念。
 
 **核心数据：**
 - 30个工作日完整培训周期
@@ -255,7 +255,7 @@ const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX
 
 ### 何时使用外部链接：
 1. **经纪商推荐** → FTMO（挑战账户）、TickMill（ECN点差）
-2. **交易所** → Binance（数字货币）
+2. **交易所** → Binance（数字货三重）
 3. **资金方** → FundedNext（资金账户）
 
 ## 输出要求
@@ -297,9 +297,9 @@ const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX
    - 核心观点必须用高亮框强调
    - 对比信息优先使用表格
    - 多用引用块突出重要引言
-10. **作者固定为**: FX Killer Team
+10. **作者固定为**: SuncheerForex Team
 
-请基于用户提供的核心内容，创作一篇专业、吸引人、符合汇刃品牌风格、视觉丰富的博客文章。`;
+请基于用户提供的核心内容，创作一篇专业、吸引人、符合三重鼎品牌风格、视觉丰富的博客文章。`;
 
 // Add streaming support
 export const runtime = 'nodejs';
@@ -459,7 +459,7 @@ export async function POST(request: Request) {
           }
 
           // Set default author
-          generatedContent.author = 'FX Killer Team';
+          generatedContent.author = 'SuncheerForex Team';
 
           console.log('[BlogAI] Successfully generated blog post');
 

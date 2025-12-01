@@ -1,10 +1,10 @@
 ---
 title: "USD/INR trades higher ahead of India’s retail inflation data"
 date: "2025-11-12 06:53:53"
-description: "The Indian Rupee (INR) faces selling pressure against the US Dollar (USD) on Wednesday. The USD/INR pair rises to near 8. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The Indian Rupee (INR) faces selling pressure against the US Dollar (USD) on Wednesday. The USD/INR pair rises to near 8. Free forex trading training by SuncheerForex."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","SuncheerForex"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "SuncheerForex Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ Traders are closely monitoring the upcoming CPI figures, as higher inflation cou
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About SuncheerForex Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? SuncheerForex offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: SuncheerForex Analysis Team
 **Updated**: 2025-11-12 06:53
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

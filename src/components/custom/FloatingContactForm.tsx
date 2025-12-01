@@ -144,7 +144,7 @@ export default function FloatingContactForm() {
                   <input
                     type="hidden"
                     name="_subject"
-                    value={isZh ? '快速联系 - BiKiller' : 'Quick Contact - BiKiller'}
+                    value={isZh ? '快速联系 - Suncheer Forex' : 'Quick Contact - Suncheer Forex'}
                   />
                   <input type="hidden" name="_captcha" value="false" />
 

@@ -317,7 +317,7 @@ export default async function CandlestickPatternsPage({ params }: { params: Prom
               <p className="text-sm">
                 <strong>{isZh ? '⚡ 注意事项：' : '⚡ Notes:'}</strong>{' '}
                 {isZh
-                  ? '1) Star形态的跳空在数字货币市场不常见（24小时交易），重点看实体大小对比；2) 第3根K线必须"深入"第1根K线实体（至少吞没50%）；3) 出现频率低但可靠性高，值得耐心等待；4) 在D1图表最有效，H4其次，H1以下不建议使用。'
+                  ? '1) Star形态的跳空在数字货三重市场不常见（24小时交易），重点看实体大小对比；2) 第3根K线必须"深入"第1根K线实体（至少吞没50%）；3) 出现频率低但可靠性高，值得耐心等待；4) 在D1图表最有效，H4其次，H1以下不建议使用。'
                   : '1) Star pattern gaps uncommon in cryptocurrency (24hr trading), focus on body size contrast; 2) 3rd candle must "penetrate" 1st candle body (at least 50% engulfing); 3) Low frequency but high reliability, worth patient wait; 4) Most effective on D1 chart, H4 next, not recommended below H1.'}
               </p>
             </div>
@@ -588,7 +588,7 @@ export default async function CandlestickPatternsPage({ params }: { params: Prom
               <li>
                 <strong>{isZh ? '5. 成交量（权重3%）：' : '5. Volume (3% Weight):'}</strong>{' '}
                 {isZh
-                  ? '数字货币现货交易没有真实成交量，但期货成交量或Tick Volume可作为参考。形态伴随量增（看涨形态）或量减（看跌形态）时更可靠。非必需条件。'
+                  ? '数字货三重现货交易没有真实成交量，但期货成交量或Tick Volume可作为参考。形态伴随量增（看涨形态）或量减（看跌形态）时更可靠。非必需条件。'
                   : 'Cryptocurrency spot has no true volume, but futures volume or Tick Volume can reference. Pattern with volume increase (bullish) or decrease (bearish) more reliable. Not essential condition.'}
               </li>
               <li>

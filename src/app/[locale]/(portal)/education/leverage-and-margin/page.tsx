@@ -47,18 +47,18 @@ export default async function LeverageMarginPage({ params }: { params: Promise<{
             </p>
             <p>
               {isZh
-                ? '如果房价涨到$110,000（+10%），你的$10,000变成$20,000（+100%）。但如果房价跌到$90,000（-10%），你的$10,000全部亏损。这就是杠杆的双刃剑效应。'
+                ? '如果房价涨到$110,000（+10%），你的$10,000变成$20,000（+100%）。但如果房价跌到$90,000（-10%），你的$10,000全部亏损。这就是杠杆的双鼎剑效应。'
                 : 'If the property rises to $110,000 (+10%), your $10,000 becomes $20,000 (+100%). But if it falls to $90,000 (-10%), you lose your entire $10,000. This is leverage\'s double-edged sword effect.'}
             </p>
           </div>
 
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
             <h3 className="text-lg font-bold mb-3 text-black dark:text-white">
-              {isZh ? '数字货币交易中的杠杆' : 'Leverage in Cryptocurrency Trading'}
+              {isZh ? '数字货三重交易中的杠杆' : 'Leverage in Cryptocurrency Trading'}
             </h3>
             <p className="mb-3">
               {isZh
-                ? '数字货币市场的杠杆通常远高于其他市场：'
+                ? '数字货三重市场的杠杆通常远高于其他市场：'
                 : 'Cryptocurrency market leverage is typically much higher than other markets:'}
             </p>
             <ul className="list-disc pl-6 space-y-1">
@@ -74,7 +74,7 @@ export default async function LeverageMarginPage({ params }: { params: Promise<{
             </ul>
             <p className="mt-3 text-sm">
               {isZh
-                ? '⚠️ 高杠杆意味着高风险。数字货币市场的高杠杆是导致许多新手快速亏损的主要原因之一。'
+                ? '⚠️ 高杠杆意味着高风险。数字货三重市场的高杠杆是导致许多新手快速亏损的主要原因之一。'
                 : '⚠️ High leverage means high risk. High cryptocurrency leverage is a major reason many beginners lose quickly.'}
             </p>
           </div>

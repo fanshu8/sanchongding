@@ -1,10 +1,10 @@
 ---
 title: "DXY slips to two-week low as shutdown nears end – DBS"
 date: "2025-11-12 12:40:26"
-description: "The US Dollar (USD) weakened further, with the Dollar Index (DXY) falling 0.2% to 99.4 – its lowest since late October –. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The US Dollar (USD) weakened further, with the Dollar Index (DXY) falling 0.2% to 99.4 – its lowest since late October –. Free forex trading training by SuncheerForex."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","SuncheerForex"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "SuncheerForex Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ This weakening of the USD is likely to impact various currency pairs, particular
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About SuncheerForex Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? SuncheerForex offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: SuncheerForex Analysis Team
 **Updated**: 2025-11-12 12:40
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

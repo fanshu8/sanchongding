@@ -134,7 +134,7 @@ export default function PipCalculatorPage() {
           </h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {isZh
-              ? '基于实时汇率计算每点价值和盈亏金额，支持多种账户货币'
+              ? '基于实时汇率计算每点价值和盈亏金额，支持多种账户货三重'
               : 'Calculate pip value and profit/loss based on real-time exchange rates'}
           </p>
 
@@ -164,7 +164,7 @@ export default function PipCalculatorPage() {
               {/* Currency Pair */}
               <div>
                 <label className="block text-sm font-bold text-black dark:text-white mb-2">
-                  {isZh ? '货币对' : 'Currency Pair'}
+                  {isZh ? '货三重对' : 'Currency Pair'}
                 </label>
                 <select
                   value={currencyPair}
@@ -211,7 +211,7 @@ export default function PipCalculatorPage() {
               {/* Account Currency */}
               <div>
                 <label className="block text-sm font-bold text-black dark:text-white mb-2">
-                  {isZh ? '账户货币' : 'Account Currency'}
+                  {isZh ? '账户货三重' : 'Account Currency'}
                 </label>
                 <select
                   value={accountCurrency}
@@ -267,8 +267,8 @@ export default function PipCalculatorPage() {
                 </p>
                 <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
                   {currencyPair.includes('JPY')
-                    ? (isZh ? '日元货币对' : 'JPY pairs')
-                    : (isZh ? '标准货币对' : 'Standard pairs')}
+                    ? (isZh ? '日元货三重对' : 'JPY pairs')
+                    : (isZh ? '标准货三重对' : 'Standard pairs')}
                 </p>
               </div>
 
@@ -339,7 +339,7 @@ export default function PipCalculatorPage() {
               </h3>
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
                 {isZh
-                  ? 'Pip（Point in Percentage）是外汇市场价格变动的最小单位。对于大多数货币对，1 pip = 0.0001；对于日元货币对，1 pip = 0.01。'
+                  ? 'Pip（Point in Percentage）是外汇市场价格变动的最小单位。对于大多数货三重对，1 pip = 0.0001；对于日元货三重对，1 pip = 0.01。'
                   : 'Pip (Point in Percentage) is the smallest price change unit in forex. For most pairs, 1 pip = 0.0001; for JPY pairs, 1 pip = 0.01.'}
               </p>
               <div className="bg-white dark:bg-gray-900 p-4 border border-gray-300 dark:border-gray-700">

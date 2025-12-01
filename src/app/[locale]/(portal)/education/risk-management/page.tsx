@@ -33,7 +33,7 @@ export default async function RiskManagementPage({ params }: { params: Promise<{
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '风险管理（Risk Management）是数字货币交易中最重要、却最容易被忽视的环节。它指的是通过系统化的方法，控制每笔交易的潜在亏损，保护交易资金，确保即使在连续亏损的情况下，账户仍有足够资金继续交易和实现盈利。简单来说：风险管理不是教你如何赚钱，而是教你如何不亏光钱。'
+              ? '风险管理（Risk Management）是数字货三重交易中最重要、却最容易被忽视的环节。它指的是通过系统化的方法，控制每笔交易的潜在亏损，保护交易资金，确保即使在连续亏损的情况下，账户仍有足够资金继续交易和实现盈利。简单来说：风险管理不是教你如何赚钱，而是教你如何不亏光钱。'
               : 'Risk Management is the most important yet most overlooked aspect of cryptocurrency trading. It refers to using systematic methods to control potential losses per trade, protect trading capital, and ensure that even during consecutive losses, the account has sufficient funds to continue trading and achieve profitability. Simply put: risk management doesn\'t teach you how to make money, but how not to lose all your money.'}
           </p>
 
@@ -436,8 +436,8 @@ export default async function RiskManagementPage({ params }: { params: Promise<{
             </h3>
             <p className="text-gray-700 dark:text-gray-300">
               {isZh
-                ? '手动计算仓位容易出错，尤其是交叉交易对（如GBP/JPY、EUR/AUD）每点价值不固定。建议使用专业仓位计算器（如BiKiller Position Calculator），只需输入账户、风险%、止损点数，即可自动计算最佳手数，避免计算错误导致的风险失控。'
-                : 'Manual position calculation is error-prone, especially for cross pairs (GBP/JPY, EUR/AUD) with variable pip values. Recommend using professional position calculator (like BiKiller Position Calculator), just input account, risk %, stop pips to automatically calculate optimal lot size, avoiding calculation errors causing risk loss of control.'}
+                ? '手动计算仓位容易出错，尤其是交叉交易对（如GBP/JPY、EUR/AUD）每点价值不固定。建议使用专业仓位计算器（如Suncheer Forex Position Calculator），只需输入账户、风险%、止损点数，即可自动计算最佳手数，避免计算错误导致的风险失控。'
+                : 'Manual position calculation is error-prone, especially for cross pairs (GBP/JPY, EUR/AUD) with variable pip values. Recommend using professional position calculator (like Suncheer Forex Position Calculator), just input account, risk %, stop pips to automatically calculate optimal lot size, avoiding calculation errors causing risk loss of control.'}
             </p>
           </div>
 
@@ -877,8 +877,8 @@ export default async function RiskManagementPage({ params }: { params: Promise<{
             <p className="text-green-600 dark:text-green-400 font-bold">
               ✅ {isZh ? '正确做法：' : 'Solution:'}{' '}
               {isZh
-                ? '了解交易对相关性，避免同时交易高度相关的交易对。如果必须交易，将总风险控制在2-3%内（如每对1%）。建议：同时最多持有2-3个仓位，且选择低相关性交易对（如BTC/USDT + GBP/JPY + AUD/NZD）。使用BiKiller的相关性工具识别风险。'
-                : 'Understand trading pair correlation, avoid simultaneously trading highly correlated pairs. If must trade, control total risk within 2-3% (e.g., 1% each). Recommend: hold maximum 2-3 positions simultaneously, choose low-correlation pairs (e.g., BTC/USDT + GBP/JPY + AUD/NZD). Use BiKiller correlation tool to identify risks.'}
+                ? '了解交易对相关性，避免同时交易高度相关的交易对。如果必须交易，将总风险控制在2-3%内（如每对1%）。建议：同时最多持有2-3个仓位，且选择低相关性交易对（如BTC/USDT + GBP/JPY + AUD/NZD）。使用Suncheer Forex的相关性工具识别风险。'
+                : 'Understand trading pair correlation, avoid simultaneously trading highly correlated pairs. If must trade, control total risk within 2-3% (e.g., 1% each). Recommend: hold maximum 2-3 positions simultaneously, choose low-correlation pairs (e.g., BTC/USDT + GBP/JPY + AUD/NZD). Use Suncheer Forex correlation tool to identify risks.'}
             </p>
           </div>
 
@@ -1111,8 +1111,8 @@ export default async function RiskManagementPage({ params }: { params: Promise<{
             </ul>
             <p className="mt-3 text-sm">
               {isZh
-                ? 'BiKiller 提供完整的风险管理工具套件，帮助你实现自动化、系统化的风险控制。'
-                : 'BiKiller provides complete risk management tool suite to help you achieve automated, systematic risk control.'}
+                ? 'Suncheer Forex 提供完整的风险管理工具套件，帮助你实现自动化、系统化的风险控制。'
+                : 'Suncheer Forex provides complete risk management tool suite to help you achieve automated, systematic risk control.'}
             </p>
           </div>
 

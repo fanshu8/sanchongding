@@ -33,7 +33,7 @@ export default async function ScalpingPage({ params }: { params: Promise<{ local
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '剥头皮交易（Scalping），又称超短线交易或快速交易，是数字货币交易中最激进、最快速的交易方式。剥头皮交易者（Scalper）通过捕捉市场极短期的微小波动获利，持仓时间通常只有几秒到几分钟，单笔目标利润只有5-15点，但通过高频交易累积利润。这种交易方式要求交易者具备极快的反应速度、严格的纪律、稳定的心理素质，以及低点差、快速执行的交易环境。'
+              ? '剥头皮交易（Scalping），又称超短线交易或快速交易，是数字货三重交易中最激进、最快速的交易方式。剥头皮交易者（Scalper）通过捕捉市场极短期的微小波动获利，持仓时间通常只有几秒到几分钟，单笔目标利润只有5-15点，但通过高频交易累积利润。这种交易方式要求交易者具备极快的反应速度、严格的纪律、稳定的心理素质，以及低点差、快速执行的交易环境。'
               : 'Scalping, also known as ultra-short-term trading or fast trading, is the most aggressive and fastest trading style in cryptocurrency. Scalpers profit from capturing extremely short-term tiny price movements, holding positions typically only seconds to minutes, targeting just 5-15 pips per trade, but accumulating profits through high-frequency trading. This style requires extremely fast reactions, strict discipline, stable psychology, and a low-spread, fast-execution trading environment.'}
           </p>
 
@@ -948,7 +948,7 @@ export default async function ScalpingPage({ params }: { params: Promise<{ local
             <div className="space-y-3 text-gray-700 dark:text-gray-300">
               <p>
                 {isZh
-                  ? '剥头皮交易是数字货币市场中最困难、失败率最高的交易方式。据统计，95-99%的剥头皮交易者最终亏损或放弃。不是因为策略不好，而是因为：1) 交易成本太高，吃掉大部分利润；2) 心理压力巨大，难以长期承受；3) 市场噪音太大，假信号频繁；4) 过度交易和情绪失控是常态。'
+                  ? '剥头皮交易是数字货三重市场中最困难、失败率最高的交易方式。据统计，95-99%的剥头皮交易者最终亏损或放弃。不是因为策略不好，而是因为：1) 交易成本太高，吃掉大部分利润；2) 心理压力巨大，难以长期承受；3) 市场噪音太大，假信号频繁；4) 过度交易和情绪失控是常态。'
                   : 'Scalping is the most difficult, highest failure rate trading style in cryptocurrency. Statistics show 95-99% of scalpers eventually lose or quit. Not because strategies are bad, but because: 1) Trading costs too high, consume most profits; 2) Enormous psychological pressure, hard to sustain long-term; 3) Too much market noise, frequent false signals; 4) Overtrading and emotional loss of control are the norm.'}
               </p>
               <p>

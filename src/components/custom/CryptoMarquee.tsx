@@ -14,13 +14,13 @@ interface CryptoData {
 }
 
 export default function CryptoMarquee() {
-  const [cryptos, setCryptos] = useState<string[]>([]); // 货币符号列表
+  const [cryptos, setCryptos] = useState<string[]>([]); // 货三重符号列表
   const [cryptoData, setCryptoData] = useState<Record<string, CryptoData>>({}); // 实时数据
 
   // 初始化数据和 WebSocket 连接
   useEffect(() => {
     async function loadData() {
-      const topCryptos = await fetchTopCryptos(); // 获取前 20 个货币
+      const topCryptos = await fetchTopCryptos(); // 获取前 20 个货三重
       setCryptos(topCryptos);
       connectWebSocket(topCryptos, setCryptoData); // 建立 WebSocket 连接
     }

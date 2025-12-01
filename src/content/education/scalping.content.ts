@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const scalpingContent = {
   zh: {
-    title: '剥头皮交易完整指南 - Scalping超短线策略与快速执行技巧 | BiKiller',
+    title: '剥头皮交易完整指南 - Scalping超短线策略与快速执行技巧 | Suncheer Forex',
     description: '深入讲解剥头皮交易（Scalping）：M1/M5超短线分析、快速入场出场、手续费成本控制、执行速度优化。掌握专业剥头皮交易的完整系统。',
-    keywords: '剥头皮交易, Scalping, M1交易, M5交易, 超短线交易, 快速交易, 剥头皮策略, 数字货币剥头皮',
+    keywords: '剥头皮交易, Scalping, M1交易, M5交易, 超短线交易, 快速交易, 剥头皮策略, 数字货三重剥头皮',
 
     heroTitle: '剥头皮交易完整指南',
     heroDescription: '掌握超短线交易技巧，实现快进快出盈利',
@@ -70,7 +70,7 @@ export const scalpingContent = {
     ],
 
     ctaTitle: '想要学习专业交易策略？',
-    ctaDescription: '加入 BiKiller 培训计划，从基础策略开始系统学习',
+    ctaDescription: '加入 Suncheer Forex 培训计划，从基础策略开始系统学习',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const scalpingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Scalping Guide - Ultra-Short-Term Strategies and Fast Execution | BiKiller',
+    title: 'Complete Scalping Guide - Ultra-Short-Term Strategies and Fast Execution | Suncheer Forex',
     description: 'In-depth explanation of Scalping: M1/M5 ultra-short analysis, rapid entry/exit, fee cost control, execution speed optimization. Master professional scalping complete system.',
     keywords: 'scalping, M1 trading, M5 trading, ultra-short-term trading, fast trading, scalping strategy, cryptocurrency scalping',
 
@@ -149,7 +149,7 @@ export const scalpingContent = {
     ],
 
     ctaTitle: 'Want to Learn Professional Trading Strategies?',
-    ctaDescription: 'Join BiKiller training to systematically learn from foundational strategies',
+    ctaDescription: 'Join Suncheer Forex training to systematically learn from foundational strategies',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -81,7 +81,7 @@ export default function MarketAnalysisClient({ analyses, language }: MarketAnaly
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
               {isZh
-                ? '每 90 分钟自动更新 · 8 大主流货币对 · 专业技术指标分析'
+                ? '每 90 分钟自动更新 · 8 大主流货三重对 · 专业技术指标分析'
                 : 'Auto-Updated Every 90 Minutes · 8 Major Pairs · Professional Technical Analysis'}
             </p>
 
@@ -133,7 +133,7 @@ export default function MarketAnalysisClient({ analyses, language }: MarketAnaly
                     className="block group"
                   >
                     <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-xl h-full">
-                      {/* 货币对名称 */}
+                      {/* 货三重对名称 */}
                       <div className="mb-4">
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
                           {analysis.symbol}

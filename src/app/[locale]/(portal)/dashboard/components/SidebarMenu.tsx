@@ -33,7 +33,7 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
     <div className="w-64 bg-white dark:bg-gray-800 border-r-2 border-gray-200 dark:border-gray-700 h-screen overflow-y-auto">
       <div className="p-6">
         <h2 className="text-2xl font-black text-black dark:text-white mb-6">
-          {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
+          {language === 'zh' ? '三重鼎控制台' : 'SuncheerForex Dashboard'}
         </h2>
 
         {menuSections.map((section, idx) => (

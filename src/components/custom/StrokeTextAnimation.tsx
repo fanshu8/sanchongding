@@ -61,7 +61,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
 
   return (
     <div className={`flex items-center gap-8 ${className}`}>
-      {/* 汇刃 - SVG 手写动画 */}
+      {/* 三重鼎 - SVG 手写动画 */}
       <svg
         width="200"
         height="100"
@@ -113,7 +113,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
           transition={{ ...transition, delay: 0.6 }}
         />
 
-        {/* 刃字 - 拆分：点 + 刀 */}
+        {/* 鼎字 - 拆分：点 + 刀 */}
         {/* 点（丶）从上往下 */}
         <motion.circle
           cx="110"
@@ -232,7 +232,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
           transition={{ ...transition, delay: 0.45 }}
         />
 
-        {/* Killer - 使用文本路径动画 */}
+        {/* Forex - 使用文本路径动画 */}
         <motion.text
           x="95"
           y="60"
@@ -245,7 +245,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
           animate="visible"
           transition={{ ...transition, delay: 0.6, duration: 0.5 }}
         >
-          Killer
+          Forex
         </motion.text>
       </svg>
     </div>

@@ -4,11 +4,11 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "BiKiller",
-    "alternateName": "BiKiller",
+    "name": "Suncheer Forex",
+    "alternateName": "Suncheer Forex",
     "url": "https://bikiller.com",
     "logo": "https://bikiller.com/logo.png",
-    "description": "专注于数字货币交易的职业交易员培训平台，提供系统化加密货币交易培训、实战训练和资金支持。",
+    "description": "专注于数字货三重交易的职业交易员培训平台，提供系统化加密货三重交易培训、实战训练和资金支持。",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "CN"
@@ -20,20 +20,20 @@ export default function StructuredData() {
     },
     "offers": {
       "@type": "Offer",
-      "name": "数字货币交易员培训",
-      "description": "30个工作日系统化数字货币交易培训，通过考核后获得资金支持",
-      "category": "数字货币交易员培训"
+      "name": "数字货三重交易员培训",
+      "description": "30个工作日系统化数字货三重交易培训，通过考核后获得资金支持",
+      "category": "数字货三重交易员培训"
     }
   }
 
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": "数字货币交易员培训计划",
-    "description": "30个工作日系统化培养数字货币交易员，包括规则学习、盈利练习、小额实盘、大额矩阵四个阶段",
+    "name": "数字货三重交易员培训计划",
+    "description": "30个工作日系统化培养数字货三重交易员，包括规则学习、盈利练习、小额实盘、大额矩阵四个阶段",
     "provider": {
       "@type": "Organization",
-      "name": "BiKiller",
+      "name": "Suncheer Forex",
       "url": "https://bikiller.com"
     },
     "educationalLevel": "专业级",
@@ -51,10 +51,10 @@ export default function StructuredData() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "什么是 BiKiller 数字货币交易员培训？",
+        "name": "什么是 Suncheer Forex 数字货三重交易员培训？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "我们是一个专注于数字货币交易的职业交易员培训平台。我们致力于用专业的方法筛选和培养真正适合加密货币市场的交易人才。我们将在30个工作日内判断新人是否是做数字货币交易的可塑之才。"
+          "text": "我们是一个专注于数字货三重交易的职业交易员培训平台。我们致力于用专业的方法筛选和培养真正适合加密货三重市场的交易人才。我们将在30个工作日内判断新人是否是做数字货三重交易的可塑之才。"
         }
       },
       {

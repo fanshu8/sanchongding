@@ -21,34 +21,34 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://bikiller.com'),
   title: {
-    default: "BiKiller - Professional Cryptocurrency Trader Training Platform | 数字货币交易职业交易员培训",
-    template: "%s | BiKiller"
+    default: "Suncheer Forex - Professional Cryptocurrency Trader Training Platform | 数字货三重交易职业交易员培训",
+    template: "%s | Suncheer Forex"
   },
-  description: "BiKiller (币刃) - 专注于数字货币交易的职业交易员培训平台。提供系统化加密货币交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合数字货币市场的专业交易员。",
-  keywords: ["BiKiller", "币刃", "数字货币交易", "加密货币培训", "职业交易员", "crypto交易", "数字货币交易员", "加密货币培训平台", "cryptocurrency交易", "专业交易员培训", "BTC", "ETH", "比特币", "以太坊", "数字货币实战", "加密货币技能培训"],
-  authors: [{ name: "BiKiller" }],
-  creator: "BiKiller",
-  publisher: "BiKiller",
+  description: "Suncheer Forex (三重鼎) - 专注于数字货三重交易的职业交易员培训平台。提供系统化加密货三重交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合数字货三重市场的专业交易员。",
+  keywords: ["Suncheer Forex", "三重鼎", "数字货三重交易", "加密货三重培训", "职业交易员", "crypto交易", "数字货三重交易员", "加密货三重培训平台", "cryptocurrency交易", "专业交易员培训", "BTC", "ETH", "比特三重", "以太坊", "数字货三重实战", "加密货三重技能培训"],
+  authors: [{ name: "Suncheer Forex" }],
+  creator: "Suncheer Forex",
+  publisher: "Suncheer Forex",
   openGraph: {
     type: "website",
     locale: "zh_CN",
     url: "https://bikiller.com",
-    siteName: "BiKiller",
-    title: "BiKiller - Professional Cryptocurrency Trader Training Platform",
-    description: "专注于数字货币交易的职业交易员培训平台。提供系统化加密货币交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
+    siteName: "Suncheer Forex",
+    title: "Suncheer Forex - Professional Cryptocurrency Trader Training Platform",
+    description: "专注于数字货三重交易的职业交易员培训平台。提供系统化加密货三重交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "BiKiller"
+        alt: "Suncheer Forex"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "BiKiller - Professional Cryptocurrency Trader Training Platform",
-    description: "专注于数字货币交易的职业交易员培训平台。提供系统化加密货币交易培训、实战训练和资金支持。",
+    title: "Suncheer Forex - Professional Cryptocurrency Trader Training Platform",
+    description: "专注于数字货三重交易的职业交易员培训平台。提供系统化加密货三重交易培训、实战训练和资金支持。",
     images: ["/og-image.jpg"]
   },
   robots: {

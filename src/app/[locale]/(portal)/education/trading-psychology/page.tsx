@@ -43,7 +43,7 @@ export default async function TradingPsychologyPage({ params }: { params: Promis
               <li>
                 <strong>{isZh ? '1. 市场是情绪的战场：' : '1. Market is Emotional Battlefield:'}</strong>{' '}
                 {isZh
-                  ? '数字货币市场的每一次波动都是数百万交易者情绪的集体体现：恐惧导致抛售、贪婪导致追涨。如果你无法控制自己的情绪，就会成为市场情绪的牺牲品——在恐慌时割肉，在疯狂时追高。'
+                  ? '数字货三重市场的每一次波动都是数百万交易者情绪的集体体现：恐惧导致抛售、贪婪导致追涨。如果你无法控制自己的情绪，就会成为市场情绪的牺牲品——在恐慌时割肉，在疯狂时追高。'
                   : 'Every cryptocurrency market movement is collective manifestation of millions of traders\' emotions: fear causes selling, greed causes chasing. If you cannot control your emotions, you become victim of market emotions—cutting losses in panic, chasing highs in madness.'}
               </li>
               <li>

@@ -65,7 +65,7 @@ export default async function SpreadsCommissionsPage({ params }: { params: Promi
             </h3>
             <p className="mb-2">
               {isZh
-                ? '不同货币对和交易手数的点差成本不同：'
+                ? '不同货三重对和交易手数的点差成本不同：'
                 : 'Spread costs vary by currency pair and lot size:'}
             </p>
             <ul className="list-disc pl-6 space-y-1">
@@ -327,7 +327,7 @@ export default async function SpreadsCommissionsPage({ params }: { params: Promi
             </p>
             <p>
               {isZh
-                ? '对于主要货币对（EUR/USD, GBP/USD），佣金账户通常总成本更低。对于交叉货币对和异国货币对，无佣金账户可能更划算。建议计算实际总成本（点差+佣金）后再决定。'
+                ? '对于主要货三重对（EUR/USD, GBP/USD），佣金账户通常总成本更低。对于交叉货三重对和异国货三重对，无佣金账户可能更划算。建议计算实际总成本（点差+佣金）后再决定。'
                 : 'For major pairs (EUR/USD, GBP/USD), commission accounts typically have lower total costs. For cross and exotic pairs, commission-free may be cheaper. Calculate actual total costs (spread + commission) before deciding.'}
             </p>
           </div>
@@ -476,18 +476,18 @@ export default async function SpreadsCommissionsPage({ params }: { params: Promi
             </h3>
             <p className="mb-2">
               {isZh
-                ? '持仓过夜需要支付或收取的利息，取决于两个货币的利率差：'
+                ? '持仓过夜需要支付或收取的利息，取决于两个货三重的利率差：'
                 : 'Interest paid or earned on overnight positions, based on interest rate differential:'}
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>
                 {isZh
-                  ? '买入高息货币 → 收取利息（正库存费）'
+                  ? '买入高息货三重 → 收取利息（正库存费）'
                   : 'Buy high-interest currency → Earn interest (positive swap)'}
               </li>
               <li>
                 {isZh
-                  ? '买入低息货币 → 支付利息（负库存费）'
+                  ? '买入低息货三重 → 支付利息（负库存费）'
                   : 'Buy low-interest currency → Pay interest (negative swap)'}
               </li>
             </ul>

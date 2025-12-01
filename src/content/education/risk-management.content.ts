@@ -2,11 +2,11 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const riskManagementContent = {
   zh: {
-    title: '数字货币风险管理基础 - 仓位控制与资金管理完整指南 | BiKiller',
-    description: '深入讲解数字货币交易风险管理核心知识：2%规则、风险回报比、仓位控制、最大回撤、风险承受能力评估。专业交易员分享实战风险管理策略，助你长期稳定盈利。',
-    keywords: '风险管理, 仓位控制, 资金管理, 止损设置, 风险回报比, 2%规则, 最大回撤, 数字货币风险管理',
+    title: '数字货三重风险管理基础 - 仓位控制与资金管理完整指南 | Suncheer Forex',
+    description: '深入讲解数字货三重交易风险管理核心知识：2%规则、风险回报比、仓位控制、最大回撤、风险承受能力评估。专业交易员分享实战风险管理策略，助你长期稳定盈利。',
+    keywords: '风险管理, 仓位控制, 资金管理, 止损设置, 风险回报比, 2%规则, 最大回撤, 数字货三重风险管理',
 
-    heroTitle: '数字货币风险管理基础',
+    heroTitle: '数字货三重风险管理基础',
     heroDescription: '掌握风险管理核心原则，保护资金实现长期盈利',
     readingTime: '30分钟',
     difficulty: '初级-中级',
@@ -73,18 +73,18 @@ export const riskManagementContent = {
     ],
 
     ctaTitle: '想要系统学习风险管理？',
-    ctaDescription: '加入 BiKiller 培训计划，获取专业风险管理工具和一对一指导',
+    ctaDescription: '加入 Suncheer Forex 培训计划，获取专业风险管理工具和一对一指导',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
-    footerPrevText: '← 数字货币基础',
+    footerPrevText: '← 数字货三重基础',
     footerNextText: '仓位控制 →',
     footerPrevHref: '/education/forex-basics',
     footerNextHref: '/education/position-sizing',
   } as EducationPageContent,
 
   en: {
-    title: 'Cryptocurrency Risk Management Fundamentals - Complete Position Sizing & Money Management Guide | BiKiller',
+    title: 'Cryptocurrency Risk Management Fundamentals - Complete Position Sizing & Money Management Guide | Suncheer Forex',
     description: 'Comprehensive guide to cryptocurrency risk management: 2% rule, risk-reward ratio, position sizing, maximum drawdown, risk tolerance assessment. Professional trader shares practical risk management strategies for long-term success.',
     keywords: 'risk management, position sizing, money management, stop loss, risk reward ratio, 2% rule, maximum drawdown, cryptocurrency risk management',
 
@@ -155,7 +155,7 @@ export const riskManagementContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Risk Management?',
-    ctaDescription: 'Join BiKiller training program for professional risk management tools and one-on-one guidance',
+    ctaDescription: 'Join Suncheer Forex training program for professional risk management tools and one-on-one guidance',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Assessment',
 

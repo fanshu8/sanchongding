@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const emaMovingAveragesContent = {
   zh: {
-    title: 'EMA指数移动平均线完整指南 - EMA交易策略与实战技巧 | BiKiller',
+    title: 'EMA指数移动平均线完整指南 - EMA交易策略与实战技巧 | Suncheer Forex',
     description: '深入讲解EMA指数移动平均线：计算公式、与SMA的区别、常用周期(8, 21, 55, 200)。掌握EMA均线交叉策略、动态支撑阻力和多周期共振分析。',
     keywords: 'EMA均线, 指数移动平均线, EMA策略, 均线交叉, SMA vs EMA, 技术分析指标, 趋势指标',
 
@@ -27,7 +27,7 @@ export const emaMovingAveragesContent = {
     faqs: [
       {
         question: 'Q1: EMA和SMA到底应该选哪个？',
-        answer: 'EMA和SMA各有优势，选择取决于交易风格。EMA优势：对最新价格更敏感，信号更快，适合短线和趋势跟踪；SMA优势：更平滑，噪音更少，适合长线和判断整体趋势。实战建议：短线交易（日内、波段）使用EMA；长线交易（周线、月线）使用SMA；或同时使用两者对比，如EMA(20)和SMA(50)配合。多数职业数字货币交易员偏好EMA，因为数字货币市场波动快。'
+        answer: 'EMA和SMA各有优势，选择取决于交易风格。EMA优势：对最新价格更敏感，信号更快，适合短线和趋势跟踪；SMA优势：更平滑，噪音更少，适合长线和判断整体趋势。实战建议：短线交易（日内、波段）使用EMA；长线交易（周线、月线）使用SMA；或同时使用两者对比，如EMA(20)和SMA(50)配合。多数职业数字货三重交易员偏好EMA，因为数字货三重市场波动快。'
       },
       {
         question: 'Q2: 哪些EMA周期最实用？',
@@ -70,7 +70,7 @@ export const emaMovingAveragesContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 BiKiller 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 Suncheer Forex 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const emaMovingAveragesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete EMA Guide - Exponential Moving Average Strategies and Techniques | BiKiller',
+    title: 'Complete EMA Guide - Exponential Moving Average Strategies and Techniques | Suncheer Forex',
     description: 'In-depth explanation of Exponential Moving Average: calculation formulas, differences from SMA, common periods (8, 21, 55, 200). Master EMA crossover strategies, dynamic support/resistance, and multi-timeframe analysis.',
     keywords: 'EMA, exponential moving average, EMA strategy, moving average crossover, SMA vs EMA, technical analysis, trend indicator',
 
@@ -149,7 +149,7 @@ export const emaMovingAveragesContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join BiKiller training to master more practical technical indicator applications',
+    ctaDescription: 'Join Suncheer Forex training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

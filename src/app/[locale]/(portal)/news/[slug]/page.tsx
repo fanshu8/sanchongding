@@ -116,8 +116,8 @@ export async function generateMetadata({ params }: NewsPageProps) {
   }
 
   return generateBilingualMetadata(
-    newsZh.title + '丨币刃丨职业交易员培训、日内交易员培训',
-    newsEn.title + '丨BiKiller丨Professional Trader Training, Day Trader Training',
+    newsZh.title + '丨三重鼎丨职业交易员培训、日内交易员培训',
+    newsEn.title + '丨Suncheer Forex丨Professional Trader Training, Day Trader Training',
     newsZh.description,
     newsEn.description,
     newsZh.keywords.join(', ') + ', 职业交易员培训, 日内交易员培训',

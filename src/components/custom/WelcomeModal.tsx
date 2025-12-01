@@ -181,8 +181,8 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                     ? '职业交易员介绍'
                     : 'Professional Trader Intro'
                   : isZh
-                  ? '欢迎来到 币刃'
-                  : 'Welcome to BiKiller'}
+                  ? '欢迎来到 三重鼎'
+                  : 'Welcome to Suncheer Forex'}
               </h2>
               {isExpanded && (
                 <p className="text-xs text-gray-300 dark:text-gray-700">

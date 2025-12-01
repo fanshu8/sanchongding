@@ -1,10 +1,10 @@
 ---
 title: "Japanese Yen hangs near nine-month low against USD as BoJ rate hike uncertainty persists"
 date: "2025-11-13 06:29:50"
-description: "The Japanese Yen (JPY) languishes near a nine-month low, touched against its American counterpart the previous day, foll. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The Japanese Yen (JPY) languishes near a nine-month low, touched against its American counterpart the previous day, foll. Free forex trading training by SuncheerForex."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","SuncheerForex"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "SuncheerForex Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ This sustained weakness in the JPY reflects broader market dynamics, as the USD 
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About SuncheerForex Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? SuncheerForex offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: SuncheerForex Analysis Team
 **Updated**: 2025-11-13 06:29
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

@@ -57,7 +57,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
     },
   };
 
-  // "刃"字特殊处理 - 分为上下两部分
+  // "鼎"字特殊处理 - 分为上下两部分
   const bladeTopVariants = {
     hidden: {
       opacity: 0,
@@ -119,7 +119,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
         animate="visible"
         key={Math.random()} // 强制重新动画（如果 loop 为 true）
       >
-        {/* 汇刃 */}
+        {/* 三重鼎 */}
         <div className="flex items-center gap-1">
           {/* 汇 - 整字动画 */}
           <motion.span
@@ -130,7 +130,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
             汇
           </motion.span>
 
-          {/* 刃 - 拆分动画 */}
+          {/* 鼎 - 拆分动画 */}
           <div className="relative inline-block text-7xl font-bold" style={{ width: "1.2em", height: "1.2em" }}>
             {/* 上面的点 */}
             <motion.span
@@ -206,7 +206,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
             />
           </div>
 
-          {/* Killer - 逐字出现 */}
+          {/* Forex - 逐字出现 */}
           {["K", "i", "l", "l", "e", "r"].map((letter, index) => (
             <motion.span
               key={index}

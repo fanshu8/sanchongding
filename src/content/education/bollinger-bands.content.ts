@@ -2,8 +2,8 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const bollingerBandsContent = {
   zh: {
-    title: '布林带指标完整指南 - Bollinger Bands交易策略与实战技巧 | BiKiller',
-    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略（布林带突破、挤压、回归）。结合实战案例，掌握布林带在数字货币交易中的应用。',
+    title: '布林带指标完整指南 - Bollinger Bands交易策略与实战技巧 | Suncheer Forex',
+    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略（布林带突破、挤压、回归）。结合实战案例，掌握布林带在数字货三重交易中的应用。',
     keywords: '布林带, Bollinger Bands, BB指标, 布林带策略, 布林带突破, 布林带挤压, 技术分析指标, 波动性指标',
 
     heroTitle: '布林带指标完整指南',
@@ -70,7 +70,7 @@ export const bollingerBandsContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 BiKiller 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 Suncheer Forex 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const bollingerBandsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Bollinger Bands Guide - Trading Strategies and Practical Techniques | BiKiller',
+    title: 'Complete Bollinger Bands Guide - Trading Strategies and Practical Techniques | Suncheer Forex',
     description: 'In-depth explanation of Bollinger Bands indicator: calculation formulas, parameter settings, classic trading strategies (BB breakout, squeeze, reversion). Master Bollinger Bands application in cryptocurrency trading with real cases.',
     keywords: 'Bollinger Bands, BB indicator, BB strategy, BB breakout, BB squeeze, technical analysis, volatility indicator',
 
@@ -149,7 +149,7 @@ export const bollingerBandsContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join BiKiller training to master more practical technical indicator applications',
+    ctaDescription: 'Join Suncheer Forex training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -12,13 +12,13 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
   const [popularSymbols, setPopularSymbols] = useState<string[]>([]);
   const [loadingSymbols, setLoadingSymbols] = useState(false);
 
-  // 热门交易对列表（默认） - 外汇品种 + 加密货币
+  // 热门交易对列表（默认） - 外汇品种 + 加密货三重
   const defaultSymbols = [
     'XAUUSDT', // 黄金/USDT（推荐，回调策略验证通过）
     'EURUSD', // 欧元/美元
     'GBPUSD', // 英镑/美元
     'USDJPY', // 美元/日元
-    'BTCUSDT', // 比特币
+    'BTCUSDT', // 比特三重
     'ETHUSDT', // 以太坊
     'BNBUSDT', // BNB
     'SOLUSDT', // Solana
@@ -32,7 +32,7 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
     // 外汇交易对（始终保留在顶部）
     const forexSymbols = ['XAUUSDT', 'EURUSD', 'GBPUSD', 'USDJPY'];
 
-    // 从Binance获取热门加密货币交易对
+    // 从Binance获取热门加密货三重交易对
     const fetchPopularSymbols = async () => {
       setLoadingSymbols(true);
       try {
@@ -42,8 +42,8 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
           const usdtSymbols = data.symbols
             .filter((s: any) => s.symbol.endsWith('USDT') && s.status === 'TRADING')
             .map((s: any) => s.symbol)
-            .slice(0, 15); // 取前15个加密货币
-          // 合并：外汇交易对 + Binance加密货币
+            .slice(0, 15); // 取前15个加密货三重
+          // 合并：外汇交易对 + Binance加密货三重
           setPopularSymbols([...forexSymbols, ...usdtSymbols]);
         } else {
           setPopularSymbols(defaultSymbols);
@@ -275,7 +275,7 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
               ))}
             </select>
             <p className="text-xs text-gray-600 dark:text-gray-400 mt-2">
-              默认: BTCUSDT (比特币/USDT)
+              默认: BTCUSDT (比特三重/USDT)
             </p>
           </div>
           <div>

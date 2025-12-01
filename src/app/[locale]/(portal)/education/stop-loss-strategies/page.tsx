@@ -33,7 +33,7 @@ export default async function StopLossStrategiesPage({ params }: { params: Promi
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '止损（Stop-Loss）是数字货币交易中最重要的风险控制工具。它是预先设定的价格水平，当市场价格达到该水平时，交易平台会自动平仓，限制你的最大亏损。简单来说：止损是你的保险，是防止小亏变爆仓的最后防线。'
+              ? '止损（Stop-Loss）是数字货三重交易中最重要的风险控制工具。它是预先设定的价格水平，当市场价格达到该水平时，交易平台会自动平仓，限制你的最大亏损。简单来说：止损是你的保险，是防止小亏变爆仓的最后防线。'
               : 'Stop-Loss is the most important risk control tool in cryptocurrency trading. It\'s a pre-set price level where, when market price reaches it, the trading platform automatically closes the position, limiting your maximum loss. Simply put: stop-loss is your insurance, the last line of defense preventing small losses from becoming account blowup.'}
           </p>
 
@@ -43,7 +43,7 @@ export default async function StopLossStrategiesPage({ params }: { params: Promi
               <li>
                 <strong>{isZh ? '1. 防止灾难性亏损：' : '1. Prevent Catastrophic Loss:'}</strong>{' '}
                 {isZh
-                  ? '数字货币市场波动剧烈，重大新闻、央行决议、地缘政治事件可能导致瞬间暴涨暴跌数百点。2015年瑞郎黑天鹅事件，EUR/CHF在15分钟内暴跌3000点，无数未设止损的交易者账户爆仓，甚至产生负余额欠交易所钱。止损能确保即使遭遇黑天鹅，亏损也在可控范围内。'
+                  ? '数字货三重市场波动剧烈，重大新闻、央行决议、地缘政治事件可能导致瞬间暴涨暴跌数百点。2015年瑞郎黑天鹅事件，EUR/CHF在15分钟内暴跌3000点，无数未设止损的交易者账户爆仓，甚至产生负余额欠交易所钱。止损能确保即使遭遇黑天鹅，亏损也在可控范围内。'
                   : 'Cryptocurrency market is highly volatile, major news, central bank decisions, geopolitical events can cause instant surges/drops of hundreds of pips. 2015 Swiss Franc black swan event, EUR/CHF plummeted 3000 pips in 15 minutes, countless traders without stops had accounts blown up, even negative balances owing exchanges. Stop-loss ensures even during black swan events, losses remain controllable.'}
               </li>
               <li>
@@ -73,7 +73,7 @@ export default async function StopLossStrategiesPage({ params }: { params: Promi
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isZh
-                ? '交易者小王，$8,000账户，2019年8月5日做多USD/CNH（美元/离岸人民币），入场价6.9500，目标7.0000（50点利润）。他认为"人民币不会大幅贬值"，未设止损。当天下午，中国央行突然放开汇率管制，USD/CNH瞬间飙升至7.1800（暴涨230点）。小王的账户从-$100浮亏迅速扩大至-$1,500，他想平仓但"不甘心"，继续等待。30分钟后，价格达到7.2500（暴涨300点），浮亏-$2,000。小王恐慌中点击平仓，但网络延迟，最终平仓价7.2800，亏损$2,200，账户缩水27.5%。'
+                ? '交易者小王，$8,000账户，2019年8月5日做多USD/CNH（美元/离岸人民三重），入场价6.9500，目标7.0000（50点利润）。他认为"人民三重不会大幅贬值"，未设止损。当天下午，中国央行突然放开汇率管制，USD/CNH瞬间飙升至7.1800（暴涨230点）。小王的账户从-$100浮亏迅速扩大至-$1,500，他想平仓但"不甘心"，继续等待。30分钟后，价格达到7.2500（暴涨300点），浮亏-$2,000。小王恐慌中点击平仓，但网络延迟，最终平仓价7.2800，亏损$2,200，账户缩水27.5%。'
                 : 'Trader Wang, $8,000 account, August 5, 2019 went long USD/CNH (US Dollar/Offshore Renminbi), entry 6.9500, target 7.0000 (50 pip profit). He thought "RMB won\'t depreciate much", didn\'t set stop. That afternoon, PBOC suddenly relaxed exchange rate control, USD/CNH instantly surged to 7.1800 (230 pip spike). Wang\'s account from -$100 floating loss rapidly expanded to -$1,500, he wanted to close but "unwilling", continued waiting. 30 minutes later, price reached 7.2500 (300 pip spike), floating loss -$2,000. Wang panicked and clicked close, but network delay, final close price 7.2800, loss $2,200, account shrunk 27.5%.'}
             </p>
             <p className="text-red-600 dark:text-red-400 font-bold">
@@ -183,7 +183,7 @@ export default async function StopLossStrategiesPage({ params }: { params: Promi
               <p className="text-sm">
                 <strong>{isZh ? '适用场景：' : 'Applicable Scenarios:'}</strong>{' '}
                 {isZh
-                  ? '股票、加密货币等价格差异大的市场。数字货币市场因为交易对价格相对稳定（BTC/USDT在1.0-1.2区间），百分比止损与固定点数止损差异不大，较少使用。'
+                  ? '股票、加密货三重等价格差异大的市场。数字货三重市场因为交易对价格相对稳定（BTC/USDT在1.0-1.2区间），百分比止损与固定点数止损差异不大，较少使用。'
                   : 'Markets with large price differences like stocks, cryptocurrencies. Cryptocurrency market because trading pair prices relatively stable (BTC/USDT in 1.0-1.2 range), percentage stop and fixed pip stop difference not large, rarely used.'}
               </p>
             </div>

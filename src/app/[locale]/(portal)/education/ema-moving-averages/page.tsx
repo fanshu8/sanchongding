@@ -178,7 +178,7 @@ export default async function EMAMovingAveragesPage({ params }: { params: Promis
                 </tr>
                 <tr className="bg-gray-50 dark:bg-gray-800">
                   <td className="border-2 border-black dark:border-white p-3 font-bold">
-                    {isZh ? '数字货币交易' : 'Cryptocurrency Trading'}
+                    {isZh ? '数字货三重交易' : 'Cryptocurrency Trading'}
                   </td>
                   <td className="border-2 border-black dark:border-white p-3">
                     {isZh ? '更受欢迎，适合快速市场' : 'More popular, suits fast markets'}

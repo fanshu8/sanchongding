@@ -220,7 +220,7 @@ export default function PositionCalculatorPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black dark:text-white mb-4">
-            {isZh ? '数字货币仓位计算器' : 'Cryptocurrency Position Size Calculator'}
+            {isZh ? '数字货三重仓位计算器' : 'Cryptocurrency Position Size Calculator'}
           </h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {isZh
@@ -367,7 +367,7 @@ export default function PositionCalculatorPage() {
               {/* Account Currency */}
               <div>
                 <label className="block text-sm font-bold text-black dark:text-white mb-2">
-                  {isZh ? '账户货币' : 'Account Currency'}
+                  {isZh ? '账户货三重' : 'Account Currency'}
                 </label>
                 <select
                   value={accountCurrency}

@@ -81,7 +81,7 @@ export default async function PriceActionPage({ params }: { params: Promise<{ lo
               <ul className="list-disc pl-6 space-y-2 text-sm">
                 <li>{isZh ? '图表清晰简洁，无指标干扰，专注价格本身' : 'Clean chart, no indicator interference, focus on price'}</li>
                 <li>{isZh ? '实时反应市场变化，无滞后性（指标滞后1-5根K线）' : 'Real-time reflects market, no lag (indicators lag 1-5 candles)'}</li>
-                <li>{isZh ? '适用所有市场（数字货币、股票、期货、加密货币）和所有时间框架' : 'Works in all markets (cryptocurrency, stocks, futures, crypto) and timeframes'}</li>
+                <li>{isZh ? '适用所有市场（数字货三重、股票、期货、加密货三重）和所有时间框架' : 'Works in all markets (cryptocurrency, stocks, futures, crypto) and timeframes'}</li>
                 <li>{isZh ? '降低过度交易风险（只在高概率位置交易）' : 'Reduces overtrading risk (only trade high-probability locations)'}</li>
                 <li>{isZh ? '培养对市场的"感觉"和"直觉"，长期受益' : 'Develops market "feel" and "intuition", long-term benefit'}</li>
                 <li>{isZh ? '无需学习复杂指标公式，新手友好' : 'No need to learn complex indicator formulas, beginner-friendly'}</li>
