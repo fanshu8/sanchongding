@@ -20,8 +20,29 @@ export default function FloatingContactForm() {
   const siteUrl = "https://bikiller.com";
 
   const handleSubmit = async (e: React.FormEvent) => {
-    // FormSubmit.co will handle the submission
-    // No need to prevent default
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const form = e.target as HTMLFormElement;
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
@@ -131,6 +152,26 @@ export default function FloatingContactForm() {
                     className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
                   >
                     {isZh ? '关闭' : 'Close'}
+                  </button>
+                </div>
+              ) : submitStatus === 'error' ? (
+                <div className="text-center py-8">
+                  <div className="w-16 h-16 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-red-600 dark:text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </div>
+                  <h4 className="text-xl font-bold text-black dark:text-white mb-2">
+                    {isZh ? '发送失败' : 'Send Failed'}
+                  </h4>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                    {isZh ? '请稍后重试或直接发送邮件至 bikiller.com@gmail.com' : 'Please try again later or email us directly at bikiller.com@gmail.com'}
+                  </p>
+                  <button
+                    onClick={() => setSubmitStatus('idle')}
+                    className="px-6 py-2 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
+                  >
+                    {isZh ? '重试' : 'Retry'}
                   </button>
                 </div>
               ) : (
