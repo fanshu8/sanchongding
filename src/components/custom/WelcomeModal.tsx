@@ -26,7 +26,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
   const { language } = useLanguage();
   const isZh = language === 'zh';
 
-  const emailAddress = "bikiller.com@gmail.com";
+  const emailAddress = "2424802244@qq.com";
   const siteUrl = "https://bikiller.com";
   // B站视频嵌入地址（中英文都使用B站视频）
   const bilibiliEmbedUrl = "//player.bilibili.com/player.html?isOutside=true&aid=258136585&bvid=BV19a411X7eY&cid=767139112&p=1";

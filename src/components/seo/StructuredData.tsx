@@ -16,7 +16,7 @@ export default function StructuredData() {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "email": "bikiller.com@gmail.com"
+      "email": "2424802244@qq.com"
     },
     "offers": {
       "@type": "Offer",
