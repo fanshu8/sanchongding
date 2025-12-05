@@ -3,7 +3,7 @@ import { EducationPageContent } from './forex-basics.content';
 export const macdIndicatorContent = {
   zh: {
     title: 'MACD指标完整指南 - MACD交易策略与实战技巧 | Suncheer Forex',
-    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图的计算公式，金叉死叉信号，背离形态识别。掌握MACD在数字货三重交易中的趋势确认和动能分析应用。',
+    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图的计算公式，金叉死叉信号，背离形态识别。掌握MACD在数字货币交易中的趋势确认和动能分析应用。',
     keywords: 'MACD指标, MACD策略, 金叉死叉, MACD背离, DIF DEA, 技术分析指标, 趋势指标',
 
     heroTitle: 'MACD指标完整指南',

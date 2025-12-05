@@ -3,8 +3,8 @@ import { EducationPageContent } from './forex-basics.content';
 export const positionSizingContent = {
   zh: {
     title: '仓位控制与资金管理 - 凯利公式与动态仓位调整策略 | Suncheer Forex',
-    description: '深入讲解数字货三重交易仓位控制核心方法：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员分享实战仓位管理技巧，助你优化资金利用率并控制风险。',
-    keywords: '仓位控制, 资金管理, 凯利公式, 固定比例法, 动态仓位, ATR仓位, 最大回撤, 数字货三重仓位管理',
+    description: '深入讲解数字货币交易仓位控制核心方法：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员分享实战仓位管理技巧，助你优化资金利用率并控制风险。',
+    keywords: '仓位控制, 资金管理, 凯利公式, 固定比例法, 动态仓位, ATR仓位, 最大回撤, 数字货币仓位管理',
 
     heroTitle: '仓位控制与资金管理',
     heroDescription: '掌握科学仓位计算方法，实现资金高效利用与风险控制',

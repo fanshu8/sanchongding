@@ -34,24 +34,24 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero Section
     'hero.title': 'Professional Crypto Trader Training Platform',
-    'hero.subtitle': '精准、专业、高效 - 培养真正的数字货三重交易专家',
-    'hero.cta.learn': '了解数字货三重培训',
+    'hero.subtitle': '精准、专业、高效 - 培养真正的数字货币交易专家',
+    'hero.cta.learn': '了解数字货币培训',
     'hero.cta.dashboard': '进入交易系统',
 
     // Why Choose Section
     'why.title': '为什么选择三重鼎',
-    'why.subtitle': '专注筛选和培养顶尖数字货三重交易员，培养真正适合的人，留下极少数，劝返大多数',
+    'why.subtitle': '专注筛选和培养顶尖数字货币交易员，培养真正适合的人，留下极少数，劝返大多数',
 
     // Advantages
     'advantage.selection.title': '精准筛选',
-    'advantage.selection.desc': '30个工作日内判断是否适合数字货三重交易，避免浪费时间。不适合我们会如实告知，适合则全力培养。',
+    'advantage.selection.desc': '30个工作日内判断是否适合数字货币交易，避免浪费时间。不适合我们会如实告知，适合则全力培养。',
     'advantage.growth.title': '快速成长',
-    'advantage.growth.desc': '科学避开错误定式，让合适的人在30个工作日内达到专家10-20年的数字货三重交易水平。',
+    'advantage.growth.desc': '科学避开错误定式，让合适的人在30个工作日内达到专家10-20年的数字货币交易水平。',
     'advantage.commission.title': '高额分成',
     'advantage.commission.desc': '战利品至少60%属于你，随能力提升最高可达90%以上。荣辱与共，合作共赢。',
 
     // Comparison
-    'comparison.vs': 'VS 传统数字货三重培训',
+    'comparison.vs': 'VS 传统数字货币培训',
     'comparison.fxkiller': '三重鼎',
     'comparison.traditional': '传统培训机构',
     'comparison.free': '完全免费 - 无任何培训费用',
@@ -68,18 +68,18 @@ const translations: Record<Language, Record<string, string>> = {
     'comparison.nosupport': '无后续支持 - 培训结束即结束',
     'comparison.noplan': '无职业规划 - 学完后自己摸索',
     'comparison.loose': '松散管理 - 容易养成不良交易习惯',
-    'comparison.emphasis': '我们致力于用最短的时间从大量人群中筛选出少数适合做数字货三重交易的人才并进行培养并给予支持',
+    'comparison.emphasis': '我们致力于用最短的时间从大量人群中筛选出少数适合做数字货币交易的人才并进行培养并给予支持',
 
     // Career Path
     'career.title': '职业发展路径',
-    'career.subtitle': '30个工作日系统化培养，从新手到职业数字货三重交易员的完整路径',
+    'career.subtitle': '30个工作日系统化培养，从新手到职业数字货币交易员的完整路径',
     'career.stage1.days': '第1-5个工作日',
     'career.stage1.title': '规则学习',
-    'career.stage1.desc': '完成15个标准进场点练习，熟悉数字货三重交易系统基本规则',
+    'career.stage1.desc': '完成15个标准进场点练习，熟悉数字货币交易系统基本规则',
     'career.stage1.warning': ' 5天内未通过规则考核将被劝退',
     'career.stage2.days': '第6-20个工作日',
     'career.stage2.title': '盈利练习',
-    'career.stage2.desc': '找到适合自己的数字货三重交易品种，按照盈利考核标准进行练习',
+    'career.stage2.desc': '找到适合自己的数字货币交易品种，按照盈利考核标准进行练习',
     'career.stage2.tip': ' 保持操作一致性，不错单、不漏单、不亏损',
     'career.stage3.days': '第21-30个工作日',
     'career.stage3.title': '盈利考核',
@@ -88,11 +88,11 @@ const translations: Record<Language, Record<string, string>> = {
     'career.stage4.path': '小额实盘  大额矩阵',
     'career.stage4.title': '职业交易员',
     'career.stage4.desc': '20个工作日小额实盘固化后，进入大额矩阵',
-    'career.stage4.goal': ' 完全自由的工作时间，开始独立数字货三重交易员生涯',
+    'career.stage4.goal': ' 完全自由的工作时间，开始独立数字货币交易员生涯',
 
     // Requirements
     'req.title': '你是否符合基本条件',
-    'req.subtitle': '严格的准入标准，确保数字货三重培训质量 - 每个人只有一次进入的机会',
+    'req.subtitle': '严格的准入标准，确保数字货币培训质量 - 每个人只有一次进入的机会',
     'req.profile.title': ' 人群画像',
     'req.profile.education': '学历与年龄',
     'req.profile.education.desc': '大专学历以上，35岁以下',
@@ -115,7 +115,7 @@ const translations: Record<Language, Record<string, string>> = {
     'req.notice.title': '重要提醒',
     'req.notice.once': '每个人只有一次进入的机会',
     'req.notice.desc': '请在充分了解并确认自己符合全部条件后再申请。',
-    'req.notice.philosophy': '我们专注培养真正适合数字货三重交易的人才。在数字货三重交易的世界里，有些人天生不适合。他们急于求成，却不知自己真正追求什么；他们只瞥一眼表象，便止步不前，无法洞察事物的深层本质。如果你属于这一类，或许其他行业更能发挥你的长处。',
+    'req.notice.philosophy': '我们专注培养真正适合数字货币交易的人才。在数字货币交易的世界里，有些人天生不适合。他们急于求成，却不知自己真正追求什么；他们只瞥一眼表象，便止步不前，无法洞察事物的深层本质。如果你属于这一类，或许其他行业更能发挥你的长处。',
 
     // Video Section
     'video.title': '了解交易员职业',
@@ -139,7 +139,7 @@ const translations: Record<Language, Record<string, string>> = {
     'showcase.screenshots.note': '以上为学员真实交易收益截图',
 
     // CTA Section
-    'cta.title': '准备好开启你的数字货三重交易员生涯了吗？',
+    'cta.title': '准备好开启你的数字货币交易员生涯了吗？',
     'cta.subtitle': '记住：最大风险是淘汰，成本是时间。若明朗、准备就绪，预约面试。通过后，入训。',
     'cta.notice.title': '特别提示',
     'cta.passrate': '最终通过率',
@@ -157,15 +157,15 @@ const translations: Record<Language, Record<string, string>> = {
     'cta.button.note': '请在充分了解并确认自己符合全部条件后再申请',
 
     // Footer
-    'footer.about': '专注于数字货三重交易的职业交易员培训平台，用专业的方法筛选和培养真正适合加密货三重市场的交易人才。',
+    'footer.about': '专注于数字货币交易的职业交易员培训平台，用专业的方法筛选和培养真正适合加密货币市场的交易人才。',
     'footer.nav.title': '快速导航',
     'footer.resources.title': '资源',
     'footer.contact.title': '联系我们',
-    'footer.contact.focus': '专注数字货三重交易培训',
-    'footer.contact.cultivate': '培养职业数字货三重交易员',
+    'footer.contact.focus': '专注数字货币交易培训',
+    'footer.contact.cultivate': '培养职业数字货币交易员',
     'footer.contact.apply': '立即申请',
-    'footer.copyright': '© 三重鼎 · 专业数字货三重交易员培训平台 · bikiller.com',
-    'footer.disclaimer': ' 数字货三重交易有风险，投资需谨慎 · 本站内容仅供学习参考，不构成投资建议',
+    'footer.copyright': '© 三重鼎 · 专业数字货币交易员培训平台 · sanchongding.com',
+    'footer.disclaimer': ' 数字货币交易有风险，投资需谨慎 · 本站内容仅供学习参考，不构成投资建议',
     'footer.partners.title': '合作伙伴',
     'footer.partners.brokers': '合作交易所',
     'footer.partners.platforms': '合作平台',
@@ -177,7 +177,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Join Us Page
     'joinus.hero.badge': 'PROFESSIONAL TRADER TRAINING',
     'joinus.hero.title1': '三重鼎',
-    'joinus.hero.title2': '数字货三重交易员培训',
+    'joinus.hero.title2': '数字货币交易员培训',
     'joinus.hero.subtitle': '培养真正适合的人，留下极少数，劝返大多数',
     'joinus.hero.stat1': '通过率',
     'joinus.hero.stat2': '完整培训',
@@ -192,9 +192,9 @@ const translations: Record<Language, Record<string, string>> = {
     'joinus.welcome.desc': '在这里，你不需要老板，你自己就是老板。事实上的任何地方，你都可以随心所欲，在阿尔卑斯山滑雪，夏威夷游泳或北海道发呆……金钱会源源不断地自动流入你的口袋。从你通过考核那一天起，你就可以遨游在世界的任何一个角落，旅行、生活或工作，哪怕是漫无目的的活着；既不需要为日常的琐事烦恼，也不需要看任何人的脸色行事，自由自在心无旁骛的同时，尽可能地把生命旅程延展……',
 
     'joinus.about.title': '关于我们',
-    'joinus.about.desc1': '我们是一个专注于筛选和培养顶尖数字货三重交易员的培训组织，我们致力于用最短的时间从大量人群中筛选出少数适合做数字货三重交易的人才并进行培养并给予支持。',
-    'joinus.about.desc2': '简单来说，我们在招聘数字货三重交易员，但绝不是从事交易多年，有经验的交易员。因为优秀的交易员不会在人才市场上流通，只能亲自培养。所以换句话说，我们在亲自筛选和培养我们的交易员，并致力于将合格的交易员培养成基金经理。',
-    'joinus.about.timeline': '我们将在 45天(30个工作日) 内判断新人是否是做数字货三重交易的可塑之才：',
+    'joinus.about.desc1': '我们是一个专注于筛选和培养顶尖数字货币交易员的培训组织，我们致力于用最短的时间从大量人群中筛选出少数适合做数字货币交易的人才并进行培养并给予支持。',
+    'joinus.about.desc2': '简单来说，我们在招聘数字货币交易员，但绝不是从事交易多年，有经验的交易员。因为优秀的交易员不会在人才市场上流通，只能亲自培养。所以换句话说，我们在亲自筛选和培养我们的交易员，并致力于将合格的交易员培养成基金经理。',
+    'joinus.about.timeline': '我们将在 45天(30个工作日) 内判断新人是否是做数字货币交易的可塑之才：',
     'joinus.about.phase1.title': '前20个工作日',
     'joinus.about.phase1.desc': '包含5天的交易基本规则学习和15天的盈利练习',
     'joinus.about.phase2.title': '后10个工作日',
@@ -214,7 +214,7 @@ const translations: Record<Language, Record<string, string>> = {
     'joinus.videos.doc2.cta': '观看纪录片 ',
 
     'joinus.profile.title': '你的样子',
-    'joinus.profile.unsuited': '在数字货三重交易的世界里，有些人天生不适合。他们急于求成，却不知自己真正追求什么；他们只瞥一眼表象，便止步不前，无法洞察事物的深层本质；或者，他们压根就该选择那些"稳定"的岗位——当一天和尚，敲一天钟，过着可预测的日子。这不是贬低，而是现实：数字货三重交易如战场，需要冷静、洞察与韧性。如果你属于这一类，或许其他行业更能发挥你的长处。',
+    'joinus.profile.unsuited': '在数字货币交易的世界里，有些人天生不适合。他们急于求成，却不知自己真正追求什么；他们只瞥一眼表象，便止步不前，无法洞察事物的深层本质；或者，他们压根就该选择那些"稳定"的岗位——当一天和尚，敲一天钟，过着可预测的日子。这不是贬低，而是现实：数字货币交易如战场，需要冷静、洞察与韧性。如果你属于这一类，或许其他行业更能发挥你的长处。',
     'joinus.profile.income.title': '关于收入、社保、底薪和薪资结构',
     'joinus.profile.income.desc': '任何盈利导向的企业，都不会做亏本买卖。即使高薪聘请一个一无所知的应届生，也源于政府补贴或对该人潜力的判断。在我们这个极简行业，所有价值都源于二级市场的买卖差价——简单、直接、残酷。在你证明盈利能力（通过考核）之前，我们不会投入一分钱。考核通过后，你的实际收入，绝不会超过你在"战场"（二级市场）上缴获的"战利品"。',
     'joinus.profile.basic.title': '基本条件',
@@ -272,7 +272,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     'joinus.final.title': '写在最后',
     'joinus.final.motto': '培养真正适合的人，留下极少数，劝返大多数。',
-    'joinus.final.p1': '我们这是数字货三重交易员军队训练营，在这里，我们将严格按照军事管理的方式将你训练成正规军（通过考核）。通过考核之后，我们将给你发放枪支弹药，让你去前线作战（实盘交易）并胜利凯旋（盈利而归）。',
+    'joinus.final.p1': '我们这是数字货币交易员军队训练营，在这里，我们将严格按照军事管理的方式将你训练成正规军（通过考核）。通过考核之后，我们将给你发放枪支弹药，让你去前线作战（实盘交易）并胜利凯旋（盈利而归）。',
     'joinus.final.p2': '所以，我们会非常认真训练你们，因为没有一个将军希望牺牲自己辛苦训练出来的战士（不能赚钱的交易员我们也不会将他送到前线去当韭菜）。',
     'joinus.final.p3': '通过考核后，我们就是合作共赢的关系。你可以选择独立作战，也可以选择和战友背靠背作战，所以我们不是公司员工隶属的关系，你是一个独立的创业者，独立的个体。',
     'joinus.final.highlight': '你在战场获得的战利品，至少 60% 属于你个人，随着你的能力提升，这个比例也会随之提高，至高可达 90% 以上。',
@@ -317,7 +317,7 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.amount.start': '起始金额',
     'donate.amount.daily': '每日增长',
     'donate.amount.payment': '支付方式',
-    'donate.amount.crypto': '仅加密货三重',
+    'donate.amount.crypto': '仅加密货币',
 
     'donate.benefits.title': '试用会员权益',
     'donate.benefits.desc': '90天专业培训，开启职业交易员之路',
@@ -412,20 +412,20 @@ const translations: Record<Language, Record<string, string>> = {
     'psytest.level.improve.desc': '您的交易心理素质还有很大的提升空间。建议在进行实盘交易前，先系统学习交易心理学，并通过模拟交易来锻炼心理素质。',
 
     // Email Contact Modal
-    'email.default.title': '数字货三重交易员面试',
-    'email.subject': '数字货三重交易员沟通',
+    'email.default.title': '数字货币交易员面试',
+    'email.subject': '数字货币交易员沟通',
     'email.description': '请发送您的简历到以下邮箱,我们会尽快与您联系：',
     'email.address.label': '邮箱地址：',
     'email.copy': '复制',
     'email.copied': '邮箱地址已复制到剪贴板',
     'email.subject.label': '邮件主题：',
     'email.tip': '提示：',
-    'email.tip.text': '请在邮件中包含您的基本信息、教育背景、以及为什么想成为数字货三重交易员。',
+    'email.tip.text': '请在邮件中包含您的基本信息、教育背景、以及为什么想成为数字货币交易员。',
     'email.send': '打开邮件客户端',
     'email.close': '关闭',
 
     // Trading Dashboard
-    'dashboard.title': '数字货三重交易控制台',
+    'dashboard.title': '数字货币交易控制台',
     'dashboard.subtitle': 'BTC/ETH Hybrid Strategy - Professional Trading System',
     'dashboard.logout': '退出登录',
     'dashboard.tab.backtest': '回测分析',
@@ -433,7 +433,7 @@ const translations: Record<Language, Record<string, string>> = {
     'dashboard.tab.tianti': '天梯',
     'dashboard.tab.config': '策略配置',
     'dashboard.footer.warning': ' 仅用于测试环境。实盘交易需要充分测试和风险评估。',
-    'dashboard.footer.copyright': '2024-2025 © Suncheer Forex 专业数字货三重交易员培训平台',
+    'dashboard.footer.copyright': '2024-2025 © Suncheer Forex 专业数字货币交易员培训平台',
 
     // Admin Login
     'login.title': '交易控制台',
@@ -445,7 +445,7 @@ const translations: Record<Language, Record<string, string>> = {
     'login.back': '返回首页',
 
     // Subscription Notification
-    'notification.message1': '已联系团队长参加数字货三重交易员培训',
+    'notification.message1': '已联系团队长参加数字货币交易员培训',
     'notification.message2': '已成为试用会员',
     'notification.time': '刚刚',
 
@@ -492,7 +492,7 @@ const translations: Record<Language, Record<string, string>> = {
     'blog.backToBlog': '返回博客',
     'blog.relatedPosts': '相关文章',
     'blog.cta.title': '准备开始您的交易之旅？',
-    'blog.cta.subtitle': '加入Suncheer Forex，接受专业的数字货三重交易员培训',
+    'blog.cta.subtitle': '加入Suncheer Forex，接受专业的数字货币交易员培训',
     'blog.cta.button': '立即加入',
   },
   en: {
@@ -643,7 +643,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.contact.focus': 'Focused on crypto training',
     'footer.contact.cultivate': 'Cultivating professional cryptocurrency traders',
     'footer.contact.apply': 'Apply Now',
-    'footer.copyright': '© Suncheer Forex · Professional Cryptocurrency Trader Training Platform · bikiller.com',
+    'footer.copyright': '© Suncheer Forex · Professional Cryptocurrency Trader Training Platform · sanchongding.com',
     'footer.disclaimer': ' Cryptocurrency trading carries risk, investment requires caution · Site content for learning reference only, not investment advice',
     'footer.partners.title': 'Partners',
     'footer.partners.brokers': 'Partner Exchanges',

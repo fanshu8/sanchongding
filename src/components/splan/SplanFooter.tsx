@@ -150,7 +150,7 @@ export default function SplanFooter() {
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Binance (三重安)
+                  Binance (币安)
                 </a>
               </li>
               <li>

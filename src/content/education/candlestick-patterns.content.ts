@@ -3,7 +3,7 @@ import { EducationPageContent } from './forex-basics.content';
 export const candlestickPatternsContent = {
   zh: {
     title: 'K线形态识别指南 - Doji、Hammer、Engulfing等反转与持续形态详解 | Suncheer Forex',
-    description: '深入讲解数字货三重K线形态：Doji十字星、Hammer锤子线、Engulfing吞没形态、Morning/Evening Star等。掌握反转形态、持续形态识别技巧，提高交易胜率。',
+    description: '深入讲解数字货币K线形态：Doji十字星、Hammer锤子线、Engulfing吞没形态、Morning/Evening Star等。掌握反转形态、持续形态识别技巧，提高交易胜率。',
     keywords: 'K线形态, 蜡烛图, Doji, Hammer, Engulfing, Morning Star, K线识别, 反转形态',
 
     heroTitle: 'K线形态识别指南',

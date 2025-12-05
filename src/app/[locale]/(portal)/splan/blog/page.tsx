@@ -66,7 +66,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               {language === 'zh'
-                ? '深度解析数字货三重交易策略、市场分析和职业交易员心得'
+                ? '深度解析数字货币交易策略、市场分析和职业交易员心得'
                 : 'In-depth analysis of crypto trading strategies, market insights, and professional trader experiences'}
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">

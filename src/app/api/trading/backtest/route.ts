@@ -216,7 +216,7 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Fallback: 尝试从Binance获取数据 (仅加密货三重)
+    // Fallback: 尝试从Binance获取数据 (仅加密货币)
     if (candles1m.length === 0 && !isForexSymbol) {
       try {
       console.log(`Fetching historical data from Binance for ${tradingConfig.symbol}...`);
@@ -295,7 +295,7 @@ export async function POST(request: NextRequest) {
           console.log(`✅ Generated ${candles5m.length} realistic forex candles (5m) for confirmation`);
         }
       } else {
-        // 加密货三重使用通用模拟数据
+        // 加密货币使用通用模拟数据
         const historicalProvider = new HistoricalDataProvider();
         const intervalMs = getIntervalMs(tradingConfig.interval);
         const candlesNeeded = Math.min(20000, Math.ceil((endDate - startDate) / intervalMs));

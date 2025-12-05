@@ -50,23 +50,23 @@ export interface EducationPageContent {
 
 export const forexBasicsContent = {
   zh: {
-    title: '数字货三重交易基础知识完整指南 - 从零开始学习数字货三重交易 | Suncheer Forex',
-    description: '完整的数字货三重交易入门教程，涵盖数字货三重市场基础、交易术语、技术分析、风险管理等核心知识。适合零基础新手，由职业交易员编写，助你快速掌握数字货三重交易essentials。',
-    keywords: '数字货三重交易基础, 数字货三重入门, 数字货三重教程, 数字货三重市场, 数字货三重交易知识, 新手学数字货三重, 数字货三重交易教程',
+    title: '数字货币交易基础知识完整指南 - 从零开始学习数字货币交易 | Suncheer Forex',
+    description: '完整的数字货币交易入门教程，涵盖数字货币市场基础、交易术语、技术分析、风险管理等核心知识。适合零基础新手，由职业交易员编写，助你快速掌握数字货币交易essentials。',
+    keywords: '数字货币交易基础, 数字货币入门, 数字货币教程, 数字货币市场, 数字货币交易知识, 新手学数字货币, 数字货币交易教程',
 
-    heroTitle: '数字货三重交易基础知识',
-    heroDescription: '完整的数字货三重交易入门指南，从零开始掌握数字货三重市场核心概念',
+    heroTitle: '数字货币交易基础知识',
+    heroDescription: '完整的数字货币交易入门指南，从零开始掌握数字货币市场核心概念',
     readingTime: '15分钟',
     difficulty: '初级',
     lastUpdated: '2024-01-15',
 
     tocTitle: '本文目录',
     tableOfContents: [
-      { id: 'what-is-cryptocurrency', title: '什么是数字货三重交易？' },
-      { id: 'how-it-works', title: '数字货三重市场的运作机制' },
+      { id: 'what-is-cryptocurrency', title: '什么是数字货币交易？' },
+      { id: 'how-it-works', title: '数字货币市场的运作机制' },
       { id: 'currency-pairs', title: '交易对：交易的基础单位' },
       { id: 'terminology', title: '核心交易术语解析' },
-      { id: 'how-to-trade', title: '数字货三重交易如何进行？' },
+      { id: 'how-to-trade', title: '数字货币交易如何进行？' },
       { id: 'practical-tips', title: '新手实战技巧' },
       { id: 'faq', title: '常见问题解答' },
     ],
@@ -74,16 +74,16 @@ export const forexBasicsContent = {
     faqTitle: '常见问题解答',
     faqs: [
       {
-        question: 'Q1: 数字货三重交易需要多少资金才能开始？',
+        question: 'Q1: 数字货币交易需要多少资金才能开始？',
         answer: '理论上，100USDT即可开始交易小额交易。但从风险管理角度，我们建议至少准备1000-2000USDT，这样可以更好地承受市场波动，设置合理的止损，并有足够的资金进行多次交易学习。'
       },
       {
-        question: 'Q2: 数字货三重交易合法吗？风险大吗？',
-        answer: '数字货三重交易在中国是合法的，但需要选择受监管的国际交易所。风险确实存在，因为使用了杠杆。但通过严格的风险管理（设置止损、控制仓位、使用合理杠杆），风险是可控的。'
+        question: 'Q2: 数字货币交易合法吗？风险大吗？',
+        answer: '数字货币交易在中国是合法的，但需要选择受监管的国际交易所。风险确实存在，因为使用了杠杆。但通过严格的风险管理（设置止损、控制仓位、使用合理杠杆），风险是可控的。'
       },
       {
-        question: 'Q3: 什么时间交易数字货三重最好？',
-        answer: '最佳交易时段是全球交易高峰时段（数字货三重市场24小时运行），市场全天候运行，流动性持续活跃。但不同交易对有不同的活跃时间，需要根据交易品种选择。'
+        question: 'Q3: 什么时间交易数字货币最好？',
+        answer: '最佳交易时段是全球交易高峰时段（数字货币市场24小时运行），市场全天候运行，流动性持续活跃。但不同交易对有不同的活跃时间，需要根据交易品种选择。'
       },
       {
         question: 'Q4: 技术分析和基本面分析哪个更重要？',
@@ -117,7 +117,7 @@ export const forexBasicsContent = {
       }
     ],
 
-    ctaTitle: '准备开始你的数字货三重交易之旅？',
+    ctaTitle: '准备开始你的数字货币交易之旅？',
     ctaDescription: '加入 Suncheer Forex 30天系统化培训，从零基础到职业交易员',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',

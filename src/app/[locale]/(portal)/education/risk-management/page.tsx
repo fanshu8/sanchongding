@@ -33,7 +33,7 @@ export default async function RiskManagementPage({ params }: { params: Promise<{
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '风险管理（Risk Management）是数字货三重交易中最重要、却最容易被忽视的环节。它指的是通过系统化的方法，控制每笔交易的潜在亏损，保护交易资金，确保即使在连续亏损的情况下，账户仍有足够资金继续交易和实现盈利。简单来说：风险管理不是教你如何赚钱，而是教你如何不亏光钱。'
+              ? '风险管理（Risk Management）是数字货币交易中最重要、却最容易被忽视的环节。它指的是通过系统化的方法，控制每笔交易的潜在亏损，保护交易资金，确保即使在连续亏损的情况下，账户仍有足够资金继续交易和实现盈利。简单来说：风险管理不是教你如何赚钱，而是教你如何不亏光钱。'
               : 'Risk Management is the most important yet most overlooked aspect of cryptocurrency trading. It refers to using systematic methods to control potential losses per trade, protect trading capital, and ensure that even during consecutive losses, the account has sufficient funds to continue trading and achieve profitability. Simply put: risk management doesn\'t teach you how to make money, but how not to lose all your money.'}
           </p>
 

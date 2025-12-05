@@ -4,7 +4,7 @@ import path from 'path'
 import matter from 'gray-matter'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://bikiller.com'
+  const baseUrl = 'https://sanchongding.com'
   const lastModified = new Date()
   const languages = ['zh', 'en']
 

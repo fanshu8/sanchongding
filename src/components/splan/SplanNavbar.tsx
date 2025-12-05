@@ -20,7 +20,7 @@ export default function SplanNavbar() {
               href="/splan/join-us"
               className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
             >
-              数字货三重培训
+              数字货币培训
             </LocaleLink>
             <LocaleLink
               href="/splan/courses"
@@ -65,7 +65,7 @@ export default function SplanNavbar() {
             href="/splan/join-us"
             className="block py-2 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white"
           >
-            数字货三重培训
+            数字货币培训
           </LocaleLink>
           <LocaleLink
             href="/splan/courses"

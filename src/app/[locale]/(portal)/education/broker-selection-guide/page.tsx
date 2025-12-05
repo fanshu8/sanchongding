@@ -49,7 +49,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
                 <ul className="list-disc pl-6 text-sm text-gray-700 dark:text-gray-300 space-y-1">
                   <li>{isZh ? '流动性高，交易执行快速' : 'High liquidity, fast execution'}</li>
                   <li>{isZh ? '用户界面友好，新手易上手' : 'User-friendly interface for beginners'}</li>
-                  <li>{isZh ? '支持法三重出入金' : 'Supports fiat deposits/withdrawals'}</li>
+                  <li>{isZh ? '支持法币出入金' : 'Supports fiat deposits/withdrawals'}</li>
                   <li>{isZh ? '客服支持完善' : 'Comprehensive customer support'}</li>
                   <li>{isZh ? '提供合约、杠杆等高级功能' : 'Offers futures, leverage and advanced features'}</li>
                 </ul>
@@ -85,7 +85,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
                   <li>{isZh ? '无需KYC，匿名交易' : 'No KYC required, anonymous trading'}</li>
                   <li>{isZh ? '全球无门槛访问' : 'Global access without restrictions'}</li>
                   <li>{isZh ? '交易透明，链上可验证' : 'Transparent, on-chain verifiable'}</li>
-                  <li>{isZh ? '可交易任何代三重（包括新三重）' : 'Trade any token including new launches'}</li>
+                  <li>{isZh ? '可交易任何代币（包括新币）' : 'Trade any token including new launches'}</li>
                 </ul>
               </div>
               <div>
@@ -154,7 +154,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
                 <td className="border-2 border-black dark:border-white px-4 py-3">~$50B</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">0.1%</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">
-                  {isZh ? '全球最大，流动性最强，三重种最全' : 'Largest globally, best liquidity, most coins'}
+                  {isZh ? '全球最大，流动性最强，币种最全' : 'Largest globally, best liquidity, most coins'}
                 </td>
               </tr>
               <tr className="bg-gray-50 dark:bg-gray-800">
@@ -201,11 +201,11 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
         <div className="space-y-6">
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-l-4 border-black dark:border-white">
             <h3 className="text-xl font-bold mb-3 text-black dark:text-white">
-              🥇 Binance（三重安）
+              🥇 Binance（币安）
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-3">
               {isZh
-                ? '全球交易量最大的加密货三重交易所，支持600+三重种，流动性无敌。'
+                ? '全球交易量最大的加密货币交易所，支持600+币种，流动性无敌。'
                 : 'World\'s largest crypto exchange by volume, supports 600+ coins with unmatched liquidity.'}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
@@ -222,7 +222,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
               <div>
                 <strong className="text-black dark:text-white">{isZh ? '核心优势：' : 'Key Advantages:'}</strong>
                 <p className="text-gray-600 dark:text-gray-400">
-                  {isZh ? '超高流动性、三重种全、手续费低' : 'Ultra-high liquidity, most coins, low fees'}
+                  {isZh ? '超高流动性、币种全、手续费低' : 'Ultra-high liquidity, most coins, low fees'}
                 </p>
               </div>
               <div>
@@ -263,7 +263,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
               <div>
                 <strong className="text-black dark:text-white">{isZh ? '注意事项：' : 'Note:'}</strong>
                 <p className="text-gray-600 dark:text-gray-400">
-                  {isZh ? '小三重种流动性略逊于三重安' : 'Slightly lower liquidity for smaller coins vs Binance'}
+                  {isZh ? '小币种流动性略逊于币安' : 'Slightly lower liquidity for smaller coins vs Binance'}
                 </p>
               </div>
             </div>
@@ -292,13 +292,13 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
               <div>
                 <strong className="text-black dark:text-white">{isZh ? '核心优势：' : 'Key Advantages:'}</strong>
                 <p className="text-gray-600 dark:text-gray-400">
-                  {isZh ? '安全性最高、合规透明、法三重出入金方便' : 'Highest security, regulatory compliance, easy fiat on/off-ramps'}
+                  {isZh ? '安全性最高、合规透明、法币出入金方便' : 'Highest security, regulatory compliance, easy fiat on/off-ramps'}
                 </p>
               </div>
               <div>
                 <strong className="text-black dark:text-white">{isZh ? '注意事项：' : 'Note:'}</strong>
                 <p className="text-gray-600 dark:text-gray-400">
-                  {isZh ? '手续费较高，三重种相对较少' : 'Higher fees, fewer coin listings'}
+                  {isZh ? '手续费较高，币种相对较少' : 'Higher fees, fewer coin listings'}
                 </p>
               </div>
             </div>
@@ -338,7 +338,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
                 <td className="border-2 border-black dark:border-white px-4 py-3">~$1-2B</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">0.3% + Gas</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">
-                  {isZh ? '最大DEX，ERC20代三重首选' : 'Largest DEX, best for ERC20 tokens'}
+                  {isZh ? '最大DEX，ERC20代币首选' : 'Largest DEX, best for ERC20 tokens'}
                 </td>
               </tr>
               <tr className="bg-gray-50 dark:bg-gray-800">
@@ -356,7 +356,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
                 <td className="border-2 border-black dark:border-white px-4 py-3">~$200M</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">0.04% + Gas</td>
                 <td className="border-2 border-black dark:border-white px-4 py-3">
-                  {isZh ? '稳定三重交易专家，滑点最低' : 'Stablecoin specialist, lowest slippage'}
+                  {isZh ? '稳定币交易专家，滑点最低' : 'Stablecoin specialist, lowest slippage'}
                 </td>
               </tr>
               <tr className="bg-gray-50 dark:bg-gray-800">
@@ -379,7 +379,7 @@ export default async function ExchangeSelectionGuidePage({ params }: { params: P
           <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
             <li>
               <strong>{isZh ? '1. 验证合约地址：' : '1. Verify Contract Address:'}</strong>{' '}
-              {isZh ? '交易前务必在官方网站确认代三重合约地址，防止假三重' : 'Always verify token contract address on official site to avoid scams'}
+              {isZh ? '交易前务必在官方网站确认代币合约地址，防止假三重' : 'Always verify token contract address on official site to avoid scams'}
             </li>
             <li>
               <strong>{isZh ? '2. 小额测试：' : '2. Test with Small Amounts:'}</strong>{' '}

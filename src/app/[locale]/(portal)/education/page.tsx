@@ -7,11 +7,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const lang = getLanguageFromLocale(locale);
 
   return generateBilingualMetadata(
-    '数字货三重交易教育中心 - 系统化学习数字货三重交易知识 | Suncheer Forex',
+    '数字货币交易教育中心 - 系统化学习数字货币交易知识 | Suncheer Forex',
     'Cryptocurrency Trading Education Center - Systematic Learning Path | Suncheer Forex',
-    '完整的数字货三重交易教育体系，涵盖基础知识、技术分析、交易策略、风险管理。从零基础到职业交易员，Suncheer Forex助你系统化学习数字货三重交易。',
+    '完整的数字货币交易教育体系，涵盖基础知识、技术分析、交易策略、风险管理。从零基础到职业交易员，Suncheer Forex助你系统化学习数字货币交易。',
     'Complete cryptocurrency trading education system covering fundamentals, technical analysis, trading strategies, and risk management. From beginner to professional trader with Suncheer Forex.',
-    '数字货三重教育, 数字货三重学习, 交易课程, 数字货三重培训, 技术分析教程, 交易策略, 风险管理',
+    '数字货币教育, 数字货币学习, 交易课程, 数字货币培训, 技术分析教程, 交易策略, 风险管理',
     'cryptocurrency education, cryptocurrency learning, trading courses, cryptocurrency training, technical analysis tutorials, trading strategies, risk management',
     lang
   );
@@ -23,16 +23,16 @@ const courseCategories = [
     id: 'basics',
     icon: '📚',
     title: { zh: '基础知识', en: 'Basic Knowledge' },
-    description: { zh: '掌握数字货三重交易的核心概念和基础理论', en: 'Master core cryptocurrency trading concepts and fundamentals' },
+    description: { zh: '掌握数字货币交易的核心概念和基础理论', en: 'Master core cryptocurrency trading concepts and fundamentals' },
     color: 'border-black dark:border-white',
     bgColor: 'bg-gray-50 dark:bg-gray-900',
     courses: [
-      { title: { zh: '数字货三重交易基础', en: 'Cryptocurrency Trading Basics' }, slug: 'forex-basics', status: { zh: '热门', en: 'Popular' } },
-      { title: { zh: '数字货三重市场交易时段', en: 'Trading Sessions Guide' }, slug: 'trading-sessions-guide', status: { zh: '新', en: 'New' } },
+      { title: { zh: '数字货币交易基础', en: 'Cryptocurrency Trading Basics' }, slug: 'forex-basics', status: { zh: '热门', en: 'Popular' } },
+      { title: { zh: '数字货币市场交易时段', en: 'Trading Sessions Guide' }, slug: 'trading-sessions-guide', status: { zh: '新', en: 'New' } },
       { title: { zh: '杠杆与保证金', en: 'Leverage and Margin' }, slug: 'leverage-and-margin', status: { zh: '新', en: 'New' } },
       { title: { zh: '交易所选择指南', en: 'Exchange Selection Guide' }, slug: 'broker-selection-guide', status: { zh: '新', en: 'New' } },
       { title: { zh: '交易对完整解析', en: 'Trading Pair Guide' }, slug: 'currency-pairs-guide', status: { zh: '新', en: 'New' } },
-      { title: { zh: '数字货三重市场参与者', en: 'Market Participants' }, slug: 'market-participants', status: { zh: '新', en: 'New' } },
+      { title: { zh: '数字货币市场参与者', en: 'Market Participants' }, slug: 'market-participants', status: { zh: '新', en: 'New' } },
     ]
   },
   {
@@ -105,12 +105,12 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
             <span className="text-sm font-semibold tracking-wider">{isZh ? '专业交易教育' : 'Professional Trading Education'}</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="font-black">{isZh ? '数字货三重交易教育中心' : 'Cryptocurrency Trading Education Center'}</span>
+            <span className="font-black">{isZh ? '数字货币交易教育中心' : 'Cryptocurrency Trading Education Center'}</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {isZh ? (
               <>
-                系统化学习数字货三重交易知识，从零基础到职业交易员<br />
+                系统化学习数字货币交易知识，从零基础到职业交易员<br />
                 专业、实战、高效的学习路径
               </>
             ) : (
@@ -146,7 +146,7 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
             {isZh ? '课程分类' : 'Course Categories'}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400">
-            {isZh ? '选择适合你的学习方向，系统化掌握数字货三重交易技能' : 'Choose your learning path and master cryptocurrency trading systematically'}
+            {isZh ? '选择适合你的学习方向，系统化掌握数字货币交易技能' : 'Choose your learning path and master cryptocurrency trading systematically'}
           </p>
         </div>
 
@@ -214,11 +214,11 @@ export default async function EducationPage({ params }: { params: Promise<{ loca
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
               {isZh
-                ? '我们提供系统化的数字货三重交易教育，由职业交易员编写，注重实战应用。所有课程完全免费，24/7随时访问，配套专业交易工具支持。'
+                ? '我们提供系统化的数字货币交易教育，由职业交易员编写，注重实战应用。所有课程完全免费，24/7随时访问，配套专业交易工具支持。'
                 : 'We provide systematic cryptocurrency trading education written by professional traders with focus on practical application. All courses are completely free, accessible 24/7, with professional trading tools support.'}
             </p>
             <p className="text-xl font-bold text-black dark:text-white">
-              {isZh ? '从零基础到职业交易员，助你在数字货三重市场稳定盈利' : 'From beginner to professional trader, helping you achieve consistent profits in cryptocurrency markets'}
+              {isZh ? '从零基础到职业交易员，助你在数字货币市场稳定盈利' : 'From beginner to professional trader, helping you achieve consistent profits in cryptocurrency markets'}
             </p>
           </div>
         </div>

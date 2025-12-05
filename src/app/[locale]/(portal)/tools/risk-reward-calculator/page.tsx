@@ -109,7 +109,7 @@ export default function RiskRewardCalculatorPage() {
               {/* Currency Pair */}
               <div>
                 <label className="block text-sm font-bold text-black dark:text-white mb-2">
-                  {isZh ? '货三重对' : 'Currency Pair'}
+                  {isZh ? '货币对' : 'Currency Pair'}
                 </label>
                 <select
                   value={currencyPair}

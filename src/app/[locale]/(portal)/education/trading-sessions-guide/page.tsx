@@ -28,12 +28,12 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
       {/* Section 1: 24/7 Nature */}
       <section id="crypto-24-7" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '加密货三重的24/7交易特性' : '24/7 Nature of Crypto Trading'}
+          {isZh ? '加密货币的24/7交易特性' : '24/7 Nature of Crypto Trading'}
         </h2>
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '数字货三重市场与传统金融市场最大的不同在于：'
+              ? '数字货币市场与传统金融市场最大的不同在于：'
               : 'The biggest difference between cryptocurrency markets and traditional financial markets:'}
             <strong className="text-black dark:text-white">
               {isZh ? '全年无休，24小时不间断交易' : 'Year-round, 24-hour continuous trading'}
@@ -45,7 +45,7 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
 
           <div className="bg-black dark:bg-white text-white dark:text-black p-6 border-2 border-black dark:border-white">
             <h3 className="text-xl font-bold mb-3">
-              {isZh ? '💡 为什么数字货三重能做到24/7？' : '💡 Why Can Crypto Trade 24/7?'}
+              {isZh ? '💡 为什么数字货币能做到24/7？' : '💡 Why Can Crypto Trade 24/7?'}
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -110,12 +110,12 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
               </li>
               <li>
                 {isZh
-                  ? '三重安（Binance）、OKX等亚洲交易所活跃度高'
+                  ? '币安（Binance）、OKX等亚洲交易所活跃度高'
                   : 'High activity on Asian exchanges like Binance and OKX'}
               </li>
               <li>
                 {isZh
-                  ? '适合交易：BNB/USDT, AVAX/USDT等亚洲关注度高的三重种'
+                  ? '适合交易：BNB/USDT, AVAX/USDT等亚洲关注度高的币种'
                   : 'Good for trading: BNB/USDT, AVAX/USDT and other Asia-focused coins'}
               </li>
             </ul>
@@ -154,7 +154,7 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
               </li>
               <li>
                 {isZh
-                  ? '适合交易主流三重种：BTC/USDT, ETH/USDT'
+                  ? '适合交易主流币种：BTC/USDT, ETH/USDT'
                   : 'Good for major coins: BTC/USDT, ETH/USDT'}
               </li>
             </ul>
@@ -236,7 +236,7 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
                   {isZh ? '高峰时段（北京时间）' : 'Peak Hours (Beijing Time)'}
                 </th>
                 <th className="border-2 border-black dark:border-white px-4 py-3 text-left">
-                  {isZh ? '特色三重种' : 'Featured Coins'}
+                  {isZh ? '特色币种' : 'Featured Coins'}
                 </th>
               </tr>
             </thead>
@@ -287,7 +287,7 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
         <div className="space-y-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {isZh
-              ? '根据CoinMarketCap和各大交易所数据，全球数字货三重市场24小时交易量分布如下：'
+              ? '根据CoinMarketCap和各大交易所数据，全球数字货币市场24小时交易量分布如下：'
               : 'According to CoinMarketCap and major exchange data, 24-hour crypto trading volume distribution:'}
           </p>
 
@@ -418,7 +418,7 @@ export default async function TradingSessionsGuidePage({ params }: { params: Pro
         <div className="space-y-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {isZh
-              ? '数字货三重市场周末照常运行，但交易特征与工作日有显著差异：'
+              ? '数字货币市场周末照常运行，但交易特征与工作日有显著差异：'
               : 'Crypto markets operate normally on weekends, but trading characteristics differ significantly from weekdays:'}
           </p>
 

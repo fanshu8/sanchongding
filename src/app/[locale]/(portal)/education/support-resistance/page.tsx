@@ -190,7 +190,7 @@ export default async function SupportResistancePage({ params }: { params: Promis
                   </li>
                   <li>
                     <strong>{isZh ? '3. 前一日开盘价/收盘价：' : '3. Previous Day Open/Close:'}</strong>{' '}
-                    {isZh ? '日线开盘价和收盘价常成为当日的支撑阻力，尤其在数字货三重市场（24小时交易，开盘价是0:00 GMT）。' : 'Daily open/close often become intraday S/R, especially in cryptocurrency (24hr trading, open is 0:00 GMT).'}
+                    {isZh ? '日线开盘价和收盘价常成为当日的支撑阻力，尤其在数字货币市场（24小时交易，开盘价是0:00 GMT）。' : 'Daily open/close often become intraday S/R, especially in cryptocurrency (24hr trading, open is 0:00 GMT).'}
                   </li>
                 </ul>
               </div>
@@ -675,7 +675,7 @@ export default async function SupportResistancePage({ params }: { params: Promis
               <li>
                 <strong>{isZh ? '3. 成交量配合：' : '3. Volume Confirmation:'}</strong>{' '}
                 {isZh
-                  ? '真突破伴随成交量显著放大（如有Tick Volume数据）。无量突破容易失败。数字货三重现货无真实成交量，可参考期货成交量。'
+                  ? '真突破伴随成交量显著放大（如有Tick Volume数据）。无量突破容易失败。数字货币现货无真实成交量，可参考期货成交量。'
                   : 'True breakout accompanied by significantly increased volume (if Tick Volume data available). No-volume breakout easily fails. Cryptocurrency spot has no true volume, can reference futures volume.'}
               </li>
               <li>

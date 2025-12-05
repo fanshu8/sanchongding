@@ -343,7 +343,7 @@ export default async function PositionSizingPage({ params }: { params: Promise<{
           <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             <p>
               {isZh
-                ? '凯利公式（Kelly Criterion）由数学家约翰·凯利于1956年提出，原用于信息论，后被应用于赌博和投资领域。它通过计算最优仓位百分比，理论上实现账户最快增长。在数字货三重交易中，凯利公式可以帮助我们根据策略的历史表现（胜率和盈亏比）确定科学的仓位大小。'
+                ? '凯利公式（Kelly Criterion）由数学家约翰·凯利于1956年提出，原用于信息论，后被应用于赌博和投资领域。它通过计算最优仓位百分比，理论上实现账户最快增长。在数字货币交易中，凯利公式可以帮助我们根据策略的历史表现（胜率和盈亏比）确定科学的仓位大小。'
                 : 'Kelly Criterion was proposed by mathematician John Kelly in 1956, originally for information theory, later applied to gambling and investment. It calculates optimal position percentage to theoretically achieve fastest account growth. In cryptocurrency trading, Kelly Criterion helps us determine scientific position size based on strategy historical performance (win rate and profit/loss ratio).'}
             </p>
 

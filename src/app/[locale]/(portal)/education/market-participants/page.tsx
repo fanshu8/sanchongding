@@ -28,18 +28,18 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
       {/* Section 1: Market Structure */}
       <section id="market-structure" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
-          {isZh ? '数字货三重市场结构与层级' : 'Cryptocurrency Market Structure & Hierarchy'}
+          {isZh ? '数字货币市场结构与层级' : 'Cryptocurrency Market Structure & Hierarchy'}
         </h2>
 
         <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
           {isZh
-            ? '与传统金融市场不同，数字货三重市场是一个去中心化的全球网络，由多种类型的参与者构成。理解这些参与者的角色和行为模式，是成功交易的关键。'
+            ? '与传统金融市场不同，数字货币市场是一个去中心化的全球网络，由多种类型的参与者构成。理解这些参与者的角色和行为模式，是成功交易的关键。'
             : 'Unlike traditional financial markets, the cryptocurrency market is a decentralized global network composed of various types of participants. Understanding their roles and behavior patterns is key to successful trading.'}
         </p>
 
         <div className="p-6 bg-black dark:bg-white text-white dark:text-black border-2 border-black dark:border-white mb-8">
           <h3 className="text-xl font-bold mb-3">
-            {isZh ? '💡 加密货三重市场的独特性' : '💡 Unique Characteristics of Crypto Markets'}
+            {isZh ? '💡 加密货币市场的独特性' : '💡 Unique Characteristics of Crypto Markets'}
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
@@ -71,7 +71,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
             <h3 className="text-lg font-bold mb-2 text-black dark:text-white">⛏️ {isZh ? '矿工' : 'Miners'}</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              {isZh ? '维护网络安全，控制新三重供应' : 'Maintain network security, control new coin supply'}
+              {isZh ? '维护网络安全，控制新币供应' : 'Maintain network security, control new coin supply'}
             </p>
           </div>
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
@@ -89,7 +89,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
             <h3 className="text-lg font-bold mb-2 text-black dark:text-white">🐋 {isZh ? '巨鲸' : 'Whales'}</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              {isZh ? '持有大量加密货三重的个人或实体' : 'Individuals/entities holding massive crypto amounts'}
+              {isZh ? '持有大量加密货币的个人或实体' : 'Individuals/entities holding massive crypto amounts'}
             </p>
           </div>
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
@@ -110,7 +110,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
         <div className="space-y-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {isZh
-              ? '交易所是加密货三重市场的基础设施，分为中心化交易所(CEX)和去中心化交易所(DEX)。它们提供流动性、撮合订单、设定价格发现机制。'
+              ? '交易所是加密货币市场的基础设施，分为中心化交易所(CEX)和去中心化交易所(DEX)。它们提供流动性、撮合订单、设定价格发现机制。'
               : 'Exchanges are the infrastructure of crypto markets, divided into CEX and DEX. They provide liquidity, match orders, and establish price discovery mechanisms.'}
           </p>
 
@@ -131,7 +131,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
                     <li>{isZh ? '提供最高流动性（日均交易量$50B+）' : 'Provide highest liquidity ($50B+ daily volume)'}</li>
                     <li>{isZh ? '充当做市商，维持买卖价差' : 'Act as market makers, maintain bid-ask spreads'}</li>
                     <li>{isZh ? '提供杠杆和合约产品' : 'Offer leverage and futures products'}</li>
-                    <li>{isZh ? '法三重出入金通道' : 'Fiat on/off-ramp gateways'}</li>
+                    <li>{isZh ? '法币出入金通道' : 'Fiat on/off-ramp gateways'}</li>
                   </ul>
                 </div>
                 <div>
@@ -168,7 +168,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
                   <h4 className="font-bold text-black dark:text-white mb-1">{isZh ? '对价格的影响：' : 'Price Impact:'}</h4>
                   <p>
                     {isZh
-                      ? 'DEX价格通常跟随CEX，但在新三重首发和特定资产交易中可能领先。套利机器人会平衡CEX和DEX之间的价差。'
+                      ? 'DEX价格通常跟随CEX，但在新币首发和特定资产交易中可能领先。套利机器人会平衡CEX和DEX之间的价差。'
                       : 'DEX prices usually follow CEX, but may lead for new token launches and specific assets. Arbitrage bots balance price differences between CEX and DEX.'}
                   </p>
                 </div>
@@ -188,7 +188,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
           {/* Crypto Funds */}
           <div className="p-6 bg-gray-50 dark:bg-gray-800 border-l-4 border-black dark:border-white">
             <h3 className="text-xl font-bold mb-4 text-black dark:text-white">
-              {isZh ? '1. 加密货三重基金' : '1. Crypto Funds'}
+              {isZh ? '1. 加密货币基金' : '1. Crypto Funds'}
             </h3>
             <div className="space-y-3 text-sm text-gray-700 dark:text-gray-300">
               <p>
@@ -212,7 +212,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
                 <p className="text-xs">
                   <strong>{isZh ? '📊 散户启示：' : '📊 Retail Insight:'}</strong>{' '}
                   {isZh
-                    ? '关注Grayscale等机构的持仓报告（每季度公布），可以了解Smart Money的配置方向。当机构大幅增持某三重种时，通常预示看好长期价值。'
+                    ? '关注Grayscale等机构的持仓报告（每季度公布），可以了解Smart Money的配置方向。当机构大幅增持某币种时，通常预示看好长期价值。'
                     : 'Follow institutional holdings reports (quarterly) from Grayscale and others to understand Smart Money allocation. Large institutional accumulation often signals long-term value conviction.'}
                 </p>
               </div>
@@ -233,7 +233,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
                 <strong>{isZh ? '角色：' : 'Role:'}</strong>
               </p>
               <ul className="list-disc pl-6 space-y-1">
-                <li>{isZh ? '挖出新比特三重，是市场主要供应方' : 'Mine new Bitcoin, primary market suppliers'}</li>
+                <li>{isZh ? '挖出新比特币，是市场主要供应方' : 'Mine new Bitcoin, primary market suppliers'}</li>
                 <li>{isZh ? '需要定期卖三重支付电费和运营成本' : 'Regular coin sales to cover electricity and operations'}</li>
                 <li>{isZh ? '持有大量BTC库存，可能在价格高点抛售' : 'Hold large BTC reserves, may sell at price peaks'}</li>
               </ul>
@@ -262,16 +262,16 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
                 <strong>{isZh ? '参与方式：' : 'Participation:'}</strong>
               </p>
               <ul className="list-disc pl-6 space-y-1">
-                <li>{isZh ? '通过比特三重ETF间接持有BTC' : 'Indirectly hold BTC via Bitcoin ETFs'}</li>
-                <li>{isZh ? '为客户提供加密货三重托管服务' : 'Provide crypto custody services for clients'}</li>
-                <li>{isZh ? '参与比特三重期货和期权交易' : 'Trade Bitcoin futures and options'}</li>
+                <li>{isZh ? '通过比特币ETF间接持有BTC' : 'Indirectly hold BTC via Bitcoin ETFs'}</li>
+                <li>{isZh ? '为客户提供加密货币托管服务' : 'Provide crypto custody services for clients'}</li>
+                <li>{isZh ? '参与比特币期货和期权交易' : 'Trade Bitcoin futures and options'}</li>
                 <li>{isZh ? '资金量巨大，影响力日益增强' : 'Massive capital, growing influence'}</li>
               </ul>
               <div className="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-500">
                 <p className="text-xs">
                   <strong>{isZh ? '🚀 市场意义：' : '🚀 Market Significance:'}</strong>{' '}
                   {isZh
-                    ? '2024年1月美国SEC批准比特三重现货ETF后，BlackRock等机构成为最大买方。传统金融的入场标志着加密货三重从边缘走向主流。'
+                    ? '2024年1月美国SEC批准比特币现货ETF后，BlackRock等机构成为最大买方。传统金融的入场标志着加密货币从边缘走向主流。'
                     : 'After SEC approved Bitcoin spot ETF in January 2024, BlackRock and others became largest buyers. Traditional finance entry marks crypto\'s shift from fringe to mainstream.'}
                 </p>
               </div>
@@ -289,7 +289,7 @@ export default async function MarketParticipantsPage({ params }: { params: Promi
         <div className="space-y-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {isZh
-              ? '散户是加密货三重市场的主体参与者，占交易量的60-70%。虽然单个散户资金量小，但集体行为对短期价格波动影响巨大。'
+              ? '散户是加密货币市场的主体参与者，占交易量的60-70%。虽然单个散户资金量小，但集体行为对短期价格波动影响巨大。'
               : 'Retail traders are the majority participants in crypto markets, accounting for 60-70% of trading volume. While individual retail capital is small, collective behavior significantly impacts short-term price movements.'}
           </p>
 

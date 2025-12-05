@@ -33,7 +33,7 @@ export default async function TrendFollowingPage({ params }: { params: Promise<{
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '趋势跟踪（Trend Following）是数字货三重市场中最经典、最可靠、盈利能力最强的交易理念。它的核心思想极其简单却深刻：顺势而为，只做趋势方向的交易，让利润奔跑，截断亏损。趋势跟踪者相信市场会形成持续的上升或下降趋势，并试图通过识别、进入和持有这些趋势来获利。与短线交易追求快进快出不同，趋势跟踪强调耐心等待、顺势而为、长期持有，是最接近"无为而治"的交易哲学。'
+              ? '趋势跟踪（Trend Following）是数字货币市场中最经典、最可靠、盈利能力最强的交易理念。它的核心思想极其简单却深刻：顺势而为，只做趋势方向的交易，让利润奔跑，截断亏损。趋势跟踪者相信市场会形成持续的上升或下降趋势，并试图通过识别、进入和持有这些趋势来获利。与短线交易追求快进快出不同，趋势跟踪强调耐心等待、顺势而为、长期持有，是最接近"无为而治"的交易哲学。'
               : 'Trend Following is the most classic, reliable, and profitable trading philosophy in cryptocurrency markets. Its core idea is extremely simple yet profound: trade with the trend, only trade in trend direction, let profits run, cut losses short. Trend followers believe markets form persistent uptrends or downtrends, and attempt to profit by identifying, entering, and holding these trends. Unlike short-term trading pursuing quick in-and-out, trend following emphasizes patient waiting, trading with trend, long-term holding, closest to "wu wei" trading philosophy.'}
           </p>
 

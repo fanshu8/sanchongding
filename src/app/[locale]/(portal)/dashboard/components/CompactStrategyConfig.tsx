@@ -226,7 +226,7 @@ export default function CompactStrategyConfig({
                       <option value="EURUSD">EURUSD (欧元/美元)</option>
                       <option value="GBPUSD">GBPUSD (英镑/美元)</option>
                       <option value="USDJPY">USDJPY (美元/日元)</option>
-                      <option value="BTCUSDT">BTCUSDT (比特三重)</option>
+                      <option value="BTCUSDT">BTCUSDT (比特币)</option>
                       <option value="ETHUSDT">ETHUSDT (以太坊)</option>
                       <option value="BNBUSDT">BNBUSDT (BNB)</option>
                       <option value="SOLUSDT">SOLUSDT (Solana)</option>

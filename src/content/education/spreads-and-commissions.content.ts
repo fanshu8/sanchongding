@@ -2,11 +2,11 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const spreadsCommissionsContent = {
   zh: {
-    title: '数字货三重手续费与佣金完整指南 - 交易成本详解与优化策略 | Suncheer Forex',
-    description: '全面解析数字货三重交易成本：手续费类型（固定vs浮动）、佣金模式、隐藏费用、以及如何选择低成本交易所。掌握降低交易成本的实用技巧，提升长期盈利能力。',
-    keywords: '数字货三重手续费, 数字货三重佣金, 交易成本, 固定手续费, 浮动手续费, ECN账户, STP账户, 数字货三重交易所对比',
+    title: '数字货币手续费与佣金完整指南 - 交易成本详解与优化策略 | Suncheer Forex',
+    description: '全面解析数字货币交易成本：手续费类型（固定vs浮动）、佣金模式、隐藏费用、以及如何选择低成本交易所。掌握降低交易成本的实用技巧，提升长期盈利能力。',
+    keywords: '数字货币手续费, 数字货币佣金, 交易成本, 固定手续费, 浮动手续费, ECN账户, STP账户, 数字货币交易所对比',
 
-    heroTitle: '数字货三重手续费与佣金详解',
+    heroTitle: '数字货币手续费与佣金详解',
     heroDescription: '理解交易成本构成，学会选择最具性价比的交易条件',
     readingTime: '16分钟',
     difficulty: '初级',
@@ -52,8 +52,8 @@ export const spreadsCommissionsContent = {
       {
         href: '/education/forex-basics',
         icon: '📚',
-        title: '数字货三重交易基础',
-        description: '从零开始了解数字货三重市场的基本概念和运作机制'
+        title: '数字货币交易基础',
+        description: '从零开始了解数字货币市场的基本概念和运作机制'
       },
       {
         href: '/tools/position-calculator',
@@ -65,7 +65,7 @@ export const spreadsCommissionsContent = {
         href: '/education/exchange-selection-guide',
         icon: '🏦',
         title: '交易所选择指南',
-        description: '学习如何选择安全可靠的数字货三重交易所'
+        description: '学习如何选择安全可靠的数字货币交易所'
       }
     ],
 

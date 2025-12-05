@@ -91,7 +91,7 @@ export default function PartnerBrokersPage() {
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300 dark:text-gray-700">
               {isZh
-                ? '经过严格筛选的可信赖数字货三重交易所'
+                ? '经过严格筛选的可信赖数字货币交易所'
                 : 'Carefully Vetted and Trustworthy Crypto Exchanges'}
             </p>
           </div>
@@ -226,7 +226,7 @@ export default function PartnerBrokersPage() {
                   <span className="font-bold mt-0.5">•</span>
                   <span>
                     {isZh
-                      ? '数字货三重交易存在风险，过往表现不代表未来结果。请根据自身情况谨慎选择。'
+                      ? '数字货币交易存在风险，过往表现不代表未来结果。请根据自身情况谨慎选择。'
                       : 'Cryptocurrency trading involves risk. Past performance does not guarantee future results. Choose carefully based on your situation.'}
                   </span>
                 </li>

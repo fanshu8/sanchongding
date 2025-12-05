@@ -27,17 +27,17 @@ export const blogPosts: BlogPost[] = [
  id: '1',
  slug: 'about-bikiller',
  title: {
- zh: '关于三重鼎 (Suncheer Forex) - 军事化数字货三重交易员训练营',
+ zh: '关于三重鼎 (Suncheer Forex) - 军事化数字货币交易员训练营',
  en: 'About Suncheer Forex - Military-Style Cryptocurrency Trader Training Camp'
  },
  excerpt: {
- zh: '三重鼎 (Suncheer Forex) 是一个专注于筛选和培养数字货三重交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
+ zh: '三重鼎 (Suncheer Forex) 是一个专注于筛选和培养数字货币交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
  en: 'Suncheer Forex is a training camp focused on selecting and cultivating cryptocurrency traders. Our philosophy: cultivating those truly suited, retaining the few, advising the majority. Pass rate 10%-15%, 30 working days complete training, 60%-90% profit share.'
  },
  content: {
  zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">关于三重鼎 (Suncheer Forex)</h1>
 
-<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">三重鼎是一个专注于筛选和培养顶尖数字货三重交易员的军事化训练营。我们不追求数量，只培养真正适合的人。这是一个严格、高强度、高淘汰率的专业训练项目。</p>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">三重鼎是一个专注于筛选和培养顶尖数字货币交易员的军事化训练营。我们不追求数量，只培养真正适合的人。这是一个严格、高强度、高淘汰率的专业训练项目。</p>
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">培养真正适合的人，留下极少数，劝返大多数</p>
@@ -1044,22 +1044,22 @@ export const blogPosts: BlogPost[] = [
  },
 
  // 3. 外汇风险管理
- // 2. 数字货三重交易入门指南
+ // 2. 数字货币交易入门指南
  {
  id: '2',
  slug: 'crypto-trading-beginner-guide',
  title: {
- zh: '数字货三重交易入门指南：从零开始的加密货三重投资之路',
+ zh: '数字货币交易入门指南：从零开始的加密货币投资之路',
  en: 'Cryptocurrency Trading Beginner Guide: Starting Your Crypto Investment Journey from Zero'
  },
  excerpt: {
- zh: '数字货三重市场是全球最具活力的金融市场之一，24/7全天候交易。本文将系统地带你了解数字货三重交易的基础知识，帮助你迈出加密货三重投资的第一步。',
+ zh: '数字货币市场是全球最具活力的金融市场之一，24/7全天候交易。本文将系统地带你了解数字货币交易的基础知识，帮助你迈出加密货币投资的第一步。',
  en: 'The cryptocurrency market is one of the world\'s most dynamic financial markets, trading 24/7. This comprehensive guide covers fundamental crypto knowledge to help you take your first crypto investment steps.'
  },
  content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货三重交易基础知识</h1>
+ zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货币交易基础知识</h1>
 
-<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">数字货三重(Cryptocurrency)是基于区块链技术的去中心化数字资产。了解数字货三重市场的基础知识，是成为职业加密货三重交易员的第一步。</p>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">数字货币(Cryptocurrency)是基于区块链技术的去中心化数字资产。了解数字货币市场的基础知识，是成为职业加密货币交易员的第一步。</p>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">市场概览</h2>
 
@@ -1082,7 +1082,7 @@ export const blogPosts: BlogPost[] = [
 <div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
 <span class="text-2xl text-white dark:text-black font-bold">4</span>
 </div>
-<p class="text-xl font-bold mb-2 text-black dark:text-white">主要三重种</p>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">主要币种</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed">BTC, ETH, BNB, SOL</p>
 </div>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -1094,27 +1094,27 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">什么是数字货三重交易</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">什么是数字货币交易</h2>
 
-<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">数字货三重交易是指买卖比特三重、以太坊等加密货三重资产的行为。交易通常以交易对形式进行，例如BTC/USDT表示用泰达三重(USDT)购买比特三重(BTC)。</p>
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">数字货币交易是指买卖比特币、以太坊等加密货币资产的行为。交易通常以交易对形式进行，例如BTC/USDT表示用泰达币(USDT)购买比特币(BTC)。</p>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
 <div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
 <span class="text-2xl text-white dark:text-black font-bold">₿</span>
 </div>
-<p class="text-xl font-bold mb-3 text-black dark:text-white">基础货三重</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">交易对中的第一个三重种，是买入或卖出的目标资产。例如BTC/USDT中，BTC是基础货三重。</p>
-<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">示例：BTC/USDT = 50000<br/>表示1个比特三重 = 50000 USDT</p>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">基础货币</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">交易对中的第一个币种，是买入或卖出的目标资产。例如BTC/USDT中，BTC是基础货币。</p>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">示例：BTC/USDT = 50000<br/>表示1个比特币 = 50000 USDT</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
 <div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
 <span class="text-2xl text-white dark:text-black font-bold">$</span>
 </div>
-<p class="text-xl font-bold mb-3 text-black dark:text-white">计价货三重</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">交易对中的第二个三重种，用于标价。例如BTC/USDT中，USDT是计价货三重。</p>
-<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">USDT是稳定三重，1 USDT ≈ 1 美元</p>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">计价货币</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">交易对中的第二个币种，用于标价。例如BTC/USDT中，USDT是计价货币。</p>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-3">USDT是稳定币，1 USDT ≈ 1 美元</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -1122,18 +1122,18 @@ export const blogPosts: BlogPost[] = [
 <span class="text-2xl text-white dark:text-black font-bold">%</span>
 </div>
 <p class="text-xl font-bold mb-3 text-black dark:text-white">价格波动</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">数字货三重价格波动较大，单日涨跌幅可达10%以上，提供了更多交易机会。</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">数字货币价格波动较大，单日涨跌幅可达10%以上，提供了更多交易机会。</p>
 <p class="text-sm text-gray-500 dark:text-gray-500 mt-3">高波动 = 高收益 + 高风险</p>
 </div>
 </div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">主流数字货三重介绍</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">主流数字货币介绍</h2>
 
 <div class="overflow-x-auto mb-8">
 <table class="w-full border-2 border-black dark:border-white">
 <thead>
 <tr>
-<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">三重种</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">币种</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">特点</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">市值排名</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">波动性</th>
@@ -1142,11 +1142,11 @@ export const blogPosts: BlogPost[] = [
 </thead>
 <tbody>
 <tr>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">比特三重 (BTC)</strong></td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">数字黄金，最稳定的加密货三重</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">比特币 (BTC)</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">数字黄金，最稳定的加密货币</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">#1</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">中等</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">所有人，首选三重种</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">所有人，首选币种</td>
 </tr>
 <tr>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">以太坊 (ETH)</strong></td>
@@ -1156,14 +1156,14 @@ export const blogPosts: BlogPost[] = [
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">中级交易者</td>
 </tr>
 <tr>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">三重安三重 (BNB)</strong></td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Binance交易所平台三重</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">币安三重 (BNB)</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Binance交易所平台币</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">#4</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">中高</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">中级交易者</td>
 </tr>
 <tr>
-<td class="px-6 py-3 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">山寨三重</strong></td>
+<td class="px-6 py-3 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">山寨币</strong></td>
 <td class="px-6 py-3 text-gray-700 dark:text-gray-300">市值较小，流动性相对较低</td>
 <td class="px-6 py-3 text-gray-700 dark:text-gray-300">#50+</td>
 <td class="px-6 py-3 text-gray-700 dark:text-gray-300">极高</td>
@@ -1183,7 +1183,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-xl font-bold mb-3 text-black dark:text-white">中心化交易所 (CEX)</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">由公司运营的传统交易平台，提供托管服务。</p>
 <ul class="space-y-2">
-<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">✓</span><span>代表：Binance(三重安)、OKX(欧易)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">✓</span><span>代表：Binance(币安)、OKX(欧易)</span></li>
 <li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">✓</span><span>优点：流动性好、交易快速、功能丰富</span></li>
 <li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">✓</span><span>适合：新手入门、专业交易</span></li>
 </ul>
@@ -1208,16 +1208,16 @@ export const blogPosts: BlogPost[] = [
 <div class="grid grid-cols-1 gap-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
 <p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 误区1：追涨杀跌</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">看到三重价暴涨就FOMO买入，看到暴跌就恐慌卖出，这是新手最常犯的错误。</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">看到币价暴涨就FOMO买入，看到暴跌就恐慌卖出，这是新手最常犯的错误。</p>
 <p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
 <p class="text-gray-600 dark:text-gray-400 text-sm">制定交易计划，设置好止损和止盈位，严格按计划执行，不被情绪左右。</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
-<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 误区2：All in单一三重种</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">把所有资金投入一个三重种，希望一夜暴富，实际上承担了极大风险。</p>
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 误区2：All in单一币种</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">把所有资金投入一个币种，希望一夜暴富，实际上承担了极大风险。</p>
 <p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
-<p class="text-gray-600 dark:text-gray-400 text-sm">分散投资，主流三重(BTC/ETH)占70%，其他三重种占30%，永远不要孤注一掷。</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">分散投资，主流币(BTC/ETH)占70%，其他币种占30%，永远不要孤注一掷。</p>
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -1229,16 +1229,16 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
 <p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 误区4：相信"内幕消息"</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">听信社交媒体上的"大V推荐"、"百倍三重"等消息盲目跟单。</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">听信社交媒体上的"大V推荐"、"百倍币"等消息盲目跟单。</p>
 <p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
 <p class="text-gray-600 dark:text-gray-400 text-sm">建立自己的交易系统，做好基本面和技术面分析，不要被"暴富故事"冲昏头脑。</p>
 </div>
 </div>
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
-<h3 class="text-2xl font-bold mb-4 text-center">数字货三重交易核心原则</h3>
+<h3 class="text-2xl font-bold mb-4 text-center">数字货币交易核心原则</h3>
 <ul class="space-y-3">
-<li class="flex items-start gap-3"><span class="text-2xl">1️⃣</span><span class="flex-1"><strong>永远不要投入承受不起损失的资金</strong> - 用闲钱投资，不要借钱炒三重</span></li>
+<li class="flex items-start gap-3"><span class="text-2xl">1️⃣</span><span class="flex-1"><strong>永远不要投入承受不起损失的资金</strong> - 用闲钱投资，不要借钱炒币</span></li>
 <li class="flex items-start gap-3"><span class="text-2xl">2️⃣</span><span class="flex-1"><strong>做好风险管理</strong> - 设置止损，单笔风险不超过总资金的2%</span></li>
 <li class="flex items-start gap-3"><span class="text-2xl">3️⃣</span><span class="flex-1"><strong>持续学习</strong> - 市场在变化，交易策略也要与时俱进</span></li>
 <li class="flex items-start gap-3"><span class="text-2xl">4️⃣</span><span class="flex-1"><strong>保持冷静</strong> - 情绪是交易最大的敌人，制定计划并严格执行</span></li>
@@ -1247,8 +1247,8 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <div class="text-center bg-gray-50 dark:bg-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700">
-<h3 class="text-2xl font-bold mb-4 text-black dark:text-white">准备好开始你的数字货三重交易之旅了吗？</h3>
-<p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">三重鼎(Suncheer Forex)提供系统化的数字货三重交易员培训，从基础知识到实战技巧，全方位提升你的交易能力。</p>
+<h3 class="text-2xl font-bold mb-4 text-black dark:text-white">准备好开始你的数字货币交易之旅了吗？</h3>
+<p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">三重鼎(Suncheer Forex)提供系统化的数字货币交易员培训，从基础知识到实战技巧，全方位提升你的交易能力。</p>
 <p class="text-sm text-gray-500 dark:text-gray-500">邮箱：2424802244@qq.com</p>
 </div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Cryptocurrency Trading Fundamentals</h1>
@@ -1310,7 +1310,7 @@ export const blogPosts: BlogPost[] = [
 </div>`
  },
  category: 'education',
- tags: ['数字货三重', '加密货三重', '比特三重', '交易入门', 'BTC', 'ETH'],
+ tags: ['数字货币', '加密货币', '比特币', '交易入门', 'BTC', 'ETH'],
  author: 'Suncheer Forex Team',
  date: '2025-01-16',
  readTime: 15,
@@ -1321,7 +1321,7 @@ export const blogPosts: BlogPost[] = [
  id: '3',
  slug: 'forex-risk-management',
  title: {
- zh: '数字货三重交易的风险管理策略：保护你的交易资本',
+ zh: '数字货币交易的风险管理策略：保护你的交易资本',
  en: 'Forex Risk Management Strategies: Protecting Your Capital'
  },
  excerpt: {
@@ -1329,7 +1329,7 @@ export const blogPosts: BlogPost[] = [
  en: 'Risk management is the foundation of trading success. Learning to control risk is more important than learning to make money. Professional risk management techniques revealed.'
  },
  content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货三重交易的风险管理策略</h1>
+ zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货币交易的风险管理策略</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">成功的交易员不是因为从不亏损，而是因为懂得控制风险。风险管理是交易的生命线，决定了你能在市场中存活多久。</p>
 
@@ -2709,22 +2709,22 @@ export const blogPosts: BlogPost[] = [
  // Continue with remaining 10 articles...
  // Due to length, I'll create abbreviated versions for the remaining articles
 
- // 6. 数字货三重交易基础
+ // 6. 数字货币交易基础
  {
  id: '6',
  slug: 'cryptocurrency-trading-basics',
  title: {
- zh: '数字货三重交易基础知识：进入加密世界的第一课',
+ zh: '数字货币交易基础知识：进入加密世界的第一课',
  en: 'Cryptocurrency Trading Basics: Your First Lesson in Crypto'
  },
  excerpt: {
- zh: '数字货三重市场充满机遇与风险。了解区块链、比特三重、以太坊等基础概念，是成功交易的第一步。',
+ zh: '数字货币市场充满机遇与风险。了解区块链、比特币、以太坊等基础概念，是成功交易的第一步。',
  en: 'Cryptocurrency markets offer both opportunities and risks. Understanding blockchain, Bitcoin, Ethereum basics is the first step to successful trading.'
  },
  content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货三重交易基础知识</h1>
+ zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货币交易基础知识</h1>
 
-<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">加密货三重是金融市场的新兴领域，具有高波动性和24/7全天候交易的特点。</p>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">加密货币是金融市场的新兴领域，具有高波动性和24/7全天候交易的特点。</p>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">加密市场特点</h2>
 
@@ -2743,17 +2743,17 @@ export const blogPosts: BlogPost[] = [
 </div>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">∞</span></div>
 <p class="text-xl font-bold mb-2 text-black dark:text-white">多样选择</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">数千种三重种</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">数千种币种</p>
 </div>
 </div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">主流三重种对比</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">主流币种对比</h2>
 
 <div class="overflow-x-auto mb-8">
 <table class="w-full border-2 border-black dark:border-white">
 <thead>
 <tr>
-<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">三重种</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">币种</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">市值排名</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">日波动</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">特点</th>
@@ -2776,7 +2776,7 @@ export const blogPosts: BlogPost[] = [
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">新手友好</td>
 </tr>
 <tr>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">山寨三重</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">山寨币</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">100+</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">10-20%</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">高风险高收益</td>
@@ -2788,14 +2788,14 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">⚠️ 新手警告</p>
-<p class="text-lg leading-relaxed text-center text-white dark:text-black">加密货三重波动极大，新手务必从BTC/ETH开始，使用小仓位，严格止损。</p>
+<p class="text-lg leading-relaxed text-center text-white dark:text-black">加密货币波动极大，新手务必从BTC/ETH开始，使用小仓位，严格止损。</p>
 </div>
 
 <p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">加密市场充满机会，也充满风险。学好基础，控制风险，你才能长期生存。</p>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">数字货三重交易安全指南</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">数字货币交易安全指南</h2>
 
-<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">在数字货三重市场，安全永远是第一位的。一个错误可能导致所有资产丢失。</p>
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">在数字货币市场，安全永远是第一位的。一个错误可能导致所有资产丢失。</p>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -2829,11 +2829,11 @@ export const blogPosts: BlogPost[] = [
 <ul class="space-y-3">
 <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
 <span class="text-black dark:text-white font-bold">•</span>
-<span><strong class="font-bold text-black dark:text-white">冷钱包存储大额：</strong>长期持有的三重放入硬件钱包</span>
+<span><strong class="font-bold text-black dark:text-white">冷钱包存储大额：</strong>长期持有的币放入硬件钱包</span>
 </li>
 <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
 <span class="text-black dark:text-white font-bold">•</span>
-<span><strong class="font-bold text-black dark:text-white">交易所只放交易用三重：</strong>不要把所有资产放在交易所</span>
+<span><strong class="font-bold text-black dark:text-white">交易所只放交易用币：</strong>不要把所有资产放在交易所</span>
 </li>
 <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
 <span class="text-black dark:text-white font-bold">•</span>
@@ -2853,7 +2853,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">⚠️ 安全警告</p>
-<p class="text-lg text-center text-white dark:text-black mb-4">加密货三重交易不可逆！一旦转错地址或被盗，几乎无法追回。</p>
+<p class="text-lg text-center text-white dark:text-black mb-4">加密货币交易不可逆！一旦转错地址或被盗，几乎无法追回。</p>
 <p class="text-center text-white dark:text-black">宁可多花时间确认，也不要因疏忽损失资产。</p>
 </div>`,
  en: `<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -3647,20 +3647,20 @@ export const blogPosts: BlogPost[] = [
  featured: false
  },
 
- // 7. 加密货三重交易心理学
+ // 7. 加密货币交易心理学
  {
  id: '7',
  slug: 'crypto-trading-psychology',
  title: {
- zh: '加密货三重交易心理学：如何在极端波动中保持理性',
+ zh: '加密货币交易心理学：如何在极端波动中保持理性',
  en: 'Crypto Trading Psychology: Staying Rational in Extreme Volatility'
  },
  excerpt: {
- zh: '数字货三重市场的极端波动会考验每个交易者的心理素质。学会控制情绪，是在加密市场生存的必备技能。',
+ zh: '数字货币市场的极端波动会考验每个交易者的心理素质。学会控制情绪，是在加密市场生存的必备技能。',
  en: 'Extreme volatility in crypto markets tests every trader\'s psychology. Emotional control is essential for survival in cryptocurrency trading.'
  },
  content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">加密货三重交易心理学</h1>
+ zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">加密货币交易心理学</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">在极端波动的加密市场中，心理素质比技术分析更重要。</p>
 
@@ -4510,7 +4510,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-2xl font-bold mb-4 text-white dark:text-black">⚡ 黄金交易时段：20:00-24:00</p>
-<p class="text-lg leading-relaxed mb-4 text-white dark:text-black">这是数字货三重市场最活跃的4小时，欧洲和美洲市场同时开放，流动性达到顶峰。</p>
+<p class="text-lg leading-relaxed mb-4 text-white dark:text-black">这是数字货币市场最活跃的4小时，欧洲和美洲市场同时开放，流动性达到顶峰。</p>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 <div>
 <p class="text-xl font-bold mb-2 text-white dark:text-black">70%+</p>

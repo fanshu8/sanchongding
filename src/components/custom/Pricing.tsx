@@ -26,7 +26,7 @@ export default function Pricing() {
               我们在 X 平台会不定时的推出针对市场的调研报告以及入场、出场信号。
               <ul className="list-none  mt-2">
                 <Step title="获得 BTC 市场评估" />
-                <Step title="获得部分山寨三重交易参考图" />
+                <Step title="获得部分山寨币交易参考图" />
                 <Step title="少量入场信号" />
                 <Step title="少量咨询回复" />
               </ul>
@@ -45,10 +45,10 @@ export default function Pricing() {
             <div className="text-neutral-200 mt-4 relative z-20">
               我们针对基础会员，提供优质服务计划，资金 ≤500万 选择此项。
               <ul className="list-none  mt-2">
-                <Step title="获得主流三重种市场评估" />
-                <Step title="获得主流山寨三重交易参考图" />
-                <Step title="获得主流三重种入场信号" />
-                <Step title="获得主流三重种跟单权限" />
+                <Step title="获得主流币种市场评估" />
+                <Step title="获得主流山寨币交易参考图" />
+                <Step title="获得主流币种入场信号" />
+                <Step title="获得主流币种跟单权限" />
                 <Step title="获得工作日咨询回复" />
                 <Step title="较低资金管理费" />
                 <Step title="较低分佣比例" />
@@ -73,7 +73,7 @@ export default function Pricing() {
             <div className="text-neutral-200 mt-4 relative z-20">
               我们针对高级会员，提供专属服务计划，资金 ≤5000万 选择此项。
               <ul className="list-none  mt-2">
-                <Step title="获得全部货三重市场评估" />
+                <Step title="获得全部货币市场评估" />
                 <Step title="获得全部交易参考图" />
                 <Step title="获得全部入场信号" />
                 <Step title="专业一对一交易跟单" />

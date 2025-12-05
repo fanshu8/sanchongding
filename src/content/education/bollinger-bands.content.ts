@@ -3,7 +3,7 @@ import { EducationPageContent } from './forex-basics.content';
 export const bollingerBandsContent = {
   zh: {
     title: '布林带指标完整指南 - Bollinger Bands交易策略与实战技巧 | Suncheer Forex',
-    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略（布林带突破、挤压、回归）。结合实战案例，掌握布林带在数字货三重交易中的应用。',
+    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略（布林带突破、挤压、回归）。结合实战案例，掌握布林带在数字货币交易中的应用。',
     keywords: '布林带, Bollinger Bands, BB指标, 布林带策略, 布林带突破, 布林带挤压, 技术分析指标, 波动性指标',
 
     heroTitle: '布林带指标完整指南',

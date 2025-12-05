@@ -5,7 +5,7 @@ import type { Candle } from '../types';
  *
  * 支持多个免费数据源：
  * 1. Alpha Vantage (外汇专家，500次/天免费)
- * 2. Twelve Data (外汇+加密货三重)
+ * 2. Twelve Data (外汇+加密货币)
  * 3. Metals-API (贵金属专用，免费100次/月)
  * 4. 模拟数据 (fallback)
  */
@@ -235,7 +235,7 @@ export class ForexDataProvider {
   }
 
   /**
-   * Twelve Data: 外汇+加密货三重 (免费800次/天)
+   * Twelve Data: 外汇+加密货币 (免费800次/天)
    * https://twelvedata.com
    */
   private async fetchFromTwelveData(symbol: string, interval: string): Promise<Candle[]> {

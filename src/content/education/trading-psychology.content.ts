@@ -3,7 +3,7 @@ import { EducationPageContent } from './forex-basics.content';
 export const tradingPsychologyContent = {
   zh: {
     title: '交易心理学 - 克服恐惧贪婪FOMO，建立交易纪律与情绪管理体系 | Suncheer Forex',
-    description: '深入讲解数字货三重交易心理学核心知识：恐惧贪婪心理、FOMO、过度交易、报复性交易、交易纪律、压力管理、交易日志。职业交易员分享实战心理调控技巧，助你克服心理陷阱实现稳定盈利。',
+    description: '深入讲解数字货币交易心理学核心知识：恐惧贪婪心理、FOMO、过度交易、报复性交易、交易纪律、压力管理、交易日志。职业交易员分享实战心理调控技巧，助你克服心理陷阱实现稳定盈利。',
     keywords: '交易心理学, 交易心理, 情绪管理, 交易纪律, FOMO, 贪婪恐惧, 过度交易, 报复性交易, 交易日志',
 
     heroTitle: '交易心理学',

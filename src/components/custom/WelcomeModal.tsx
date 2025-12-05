@@ -27,7 +27,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
   const isZh = language === 'zh';
 
   const emailAddress = "2424802244@qq.com";
-  const siteUrl = "https://bikiller.com";
+  const siteUrl = "https://sanchongding.com";
   // B站视频嵌入地址（中英文都使用B站视频）
   const bilibiliEmbedUrl = "//player.bilibili.com/player.html?isOutside=true&aid=258136585&bvid=BV19a411X7eY&cid=767139112&p=1";
 
@@ -80,13 +80,13 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
 
   useEffect(() => {
     // 检查是否是首次访问
-    const hasVisited = localStorage.getItem('bikiller_welcome_shown');
+    const hasVisited = localStorage.getItem('sanchongding_welcome_shown');
     if (!hasVisited) {
       // 延迟 1 秒显示，让页面先加载
       setTimeout(() => {
         setModalState('expanded');
       }, 1000);
-      localStorage.setItem('bikiller_welcome_shown', 'true');
+      localStorage.setItem('sanchongding_welcome_shown', 'true');
     }
   }, []);
 

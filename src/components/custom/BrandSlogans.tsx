@@ -7,7 +7,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // 品牌标语集合 - 体现力量、精准、专业
 const slogans = [
   {
-    zh: "三重鼎，数字货三重交易市场的一把利鼎",
+    zh: "三重鼎，数字货币交易市场的一把利鼎",
     en: "Suncheer Forex, the sharp blade in crypto trading"
   },
   {

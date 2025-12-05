@@ -6,7 +6,7 @@ import { ThreeDMarquee } from "@/components/ui/3d-marquee";
 
 // 定义交易数据类型
 interface Trade {
-  coin: string; // 三重种
+  coin: string; // 币种
   type: 'spot' | 'futures' | 'options'; // 交易方式
   profit: number; // 利润
 }

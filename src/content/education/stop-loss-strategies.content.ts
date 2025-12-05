@@ -3,8 +3,8 @@ import { EducationPageContent } from './forex-basics.content';
 export const stopLossStrategiesContent = {
   zh: {
     title: '止损策略大全 - 固定止损、ATR止损、技术止损与追踪止损完整指南 | Suncheer Forex',
-    description: '深入讲解数字货三重交易止损策略核心方法：固定点数止损、百分比止损、ATR动态止损、技术位止损、时间止损、追踪止损。职业交易员分享实战止损设置技巧，助你保护资金并优化盈利。',
-    keywords: '止损策略, 止损设置, ATR止损, 技术止损, 追踪止损, 移动止损, 止损执行, 数字货三重止损',
+    description: '深入讲解数字货币交易止损策略核心方法：固定点数止损、百分比止损、ATR动态止损、技术位止损、时间止损、追踪止损。职业交易员分享实战止损设置技巧，助你保护资金并优化盈利。',
+    keywords: '止损策略, 止损设置, ATR止损, 技术止损, 追踪止损, 移动止损, 止损执行, 数字货币止损',
 
     heroTitle: '止损策略大全',
     heroDescription: '掌握各类止损技巧，保护资金实现风险可控盈利',

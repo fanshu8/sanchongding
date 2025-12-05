@@ -33,7 +33,7 @@ export default async function BreakoutTradingPage({ params }: { params: Promise<
         <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
             {isZh
-              ? '突破交易（Breakout Trading）是数字货三重市场中最具爆发力、盈利潜力最大的交易策略之一。它的核心理念是：当价格突破关键的支撑位、阻力位、趋势线或盘整区间时，往往会引发大量跟随订单，导致价格加速运行，形成新的趋势。突破交易者的目标是在突破发生的瞬间或之后立即进场，抓住这段爆发性的行情，在短时间内获取大量利润。'
+              ? '突破交易（Breakout Trading）是数字货币市场中最具爆发力、盈利潜力最大的交易策略之一。它的核心理念是：当价格突破关键的支撑位、阻力位、趋势线或盘整区间时，往往会引发大量跟随订单，导致价格加速运行，形成新的趋势。突破交易者的目标是在突破发生的瞬间或之后立即进场，抓住这段爆发性的行情，在短时间内获取大量利润。'
               : 'Breakout Trading is one of the most explosive and potentially profitable trading strategies in cryptocurrency markets. Its core philosophy: when price breaks key support, resistance, trendlines, or consolidation ranges, often triggers large follow-through orders, causing price acceleration and forming new trends. Breakout traders\' goal is to enter at or immediately after breakout moment, catching this explosive move to capture large profits in short time.'}
           </p>
 
