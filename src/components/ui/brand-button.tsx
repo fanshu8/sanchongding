@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
-import { motion } from "framer-motion"
+import { motion, type HTMLMotionProps } from "framer-motion"
 
 import { cn } from "@/lib/utils"
 
@@ -30,26 +30,37 @@ const brandButtonVariants = cva(
   }
 )
 
-/**
+/** 
  * BrandButton
  * 基于通用 Button 的品牌按钮，提供 accent/secondary/outline 三种预设变体并注入轻微点击动效
+ * @param variant 视觉变体：accent | secondary | outline
+ * @param size 尺寸：default | sm | lg | icon
+ * @param asChild 是否以 Slot 包裹以复用外层元素
+ * @param className 自定义样式类
+ * @description 去除原生 onDrag 以避免与 framer-motion 的 onDrag 类型冲突
  */
+/** 
+ * ButtonBaseProps
+ * 去除原生拖拽相关事件以兼容 framer-motion 的事件签名
+ */
+type ButtonBaseProps = Omit<HTMLMotionProps<"button">, "ref">;
 function BrandButton({
   className,
   variant,
   size,
   asChild = false,
   ...props
-}: React.ComponentProps<"button"> &
+}: ButtonBaseProps &
   VariantProps<typeof brandButtonVariants> & {
     asChild?: boolean
   }) {
   const classes = cn(brandButtonVariants({ variant, size, className }))
 
   if (asChild) {
+    const { /* omit all to avoid Slot prop type conflicts */ } = props
     return (
       <motion.div whileTap={{ scale: 0.98 }}>
-        <Slot data-slot="brand-button" className={classes} {...props} />
+        <Slot data-slot="brand-button" className={classes} />
       </motion.div>
     )
   }
@@ -65,4 +76,3 @@ function BrandButton({
 }
 
 export { BrandButton, brandButtonVariants }
-

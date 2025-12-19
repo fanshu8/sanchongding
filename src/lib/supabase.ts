@@ -11,7 +11,15 @@ if (!supabaseKey) {
   console.warn('SUPABASE_KEY is not defined in environment variables');
 }
 
-export const supabase = createClient(supabaseUrl, supabaseKey);
+/**
+ * Supabase 客户端
+ * 当环境变量缺失时，为避免构建阶段抛错，不在导入阶段初始化真实客户端
+ * 仅当同时存在 SUPABASE_URL 与 SUPABASE_KEY 时才创建客户端，否则导出一个空引用
+ */
+export const supabase =
+  supabaseUrl && supabaseKey
+    ? createClient(supabaseUrl, supabaseKey)
+    : (null as unknown as ReturnType<typeof createClient>);
 
 // Type definitions for database tables
 export interface LiveStream {
