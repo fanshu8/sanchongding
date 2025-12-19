@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* 告诉浏览器我们已经处理了暗色模式，不要自动转换颜色 */
+  :root {
+    color-scheme: light;
+    /* 深海磐石配色（HSL） */
+    --background: 210 20% 98%; /* #F9FAFB */
+    --foreground: 222 47% 11%; /* 近黑文本 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 219 72% 21%; /* #0F2A5C */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 189 95% 43%; /* #06B6D4 */
+    --secondary-foreground: 222 47% 11%;
+
+    --accent: 25 95% 53%; /* #F97316 */
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 219 72% 21%;
+  }
+
+  :root.dark {
+    color-scheme: dark;
+    --background: 222 47% 5%;
+    --foreground: 0 0% 100%;
+
+    --card: 222 47% 7%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 222 47% 7%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 219 72% 58%; /* 调亮以适配暗色 */
+    --primary-foreground: 222 47% 7%;
+
+    --secondary: 189 95% 55%;
+    --secondary-foreground: 222 47% 7%;
+
+    --accent: 25 95% 60%;
+    --accent-foreground: 222 47% 7%;
+
+    --muted: 222 47% 12%;
+    --muted-foreground: 215 20% 65%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 222 47% 7%;
+
+    --border: 222 47% 12%;
+    --input: 222 47% 12%;
+    --ring: 219 72% 58%;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+    20%, 40%, 60%, 80% { transform: translateX(3px); }
+  }
+
+  .animate-shake {
+    animation: shake 3s ease-in-out infinite;
+  }
+
+  /* 覆盖全站黑色背景为品牌深蓝色 */
+  .bg-black {
+    background-color: hsl(var(--primary)) !important;
+  }
+}

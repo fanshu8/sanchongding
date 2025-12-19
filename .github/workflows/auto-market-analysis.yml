@@ -1,0 +1,61 @@
+name: Auto Market Analysis
+
+on:
+  schedule:
+    # 每80分钟运行一次（GitHub Actions cron 最接近的实现方式）
+    # 00:00, 01:20, 02:40, 04:00, 05:20, 06:40, 08:00, 09:20, 10:40, 12:00, 13:20, 14:40, 16:00, 17:20, 18:40, 20:00, 21:20, 22:40
+    - cron: '0 0,4,8,12,16,20 * * *'      # 每4小时的整点（6次/天）
+    - cron: '20 1,5,9,13,17,21 * * *'    # 每4小时+1:20（6次/天）
+    - cron: '40 2,6,10,14,18,22 * * *'   # 每4小时+2:40（6次/天）
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  generate-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Generate market analysis
+        run: node scripts/market-analysis-generator.js
+        env:
+          TD_KEY: ${{ secrets.TD_KEY }}
+          SKEY: ${{ secrets.SKEY }}
+          NODE_ENV: Production
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name 'C-L-STARK'
+          git config --global user.email 'x.stark.dylan@gmail.com'
+
+          # Check if there are changes
+          git add src/content/analysis/
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Pull latest changes before committing
+            git stash
+            git pull --rebase
+            git stash pop || true
+
+            # Add changes again after pull
+            git add src/content/analysis/
+            git commit -m "chore: Auto-generate market analysis $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
