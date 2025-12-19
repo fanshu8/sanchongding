@@ -2,6 +2,8 @@ import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServe
 import { parseVideoUrl } from '@/lib/videoEmbedParser';
 import LiveTradingClient from './LiveTradingClient';
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);
@@ -22,13 +24,15 @@ export default async function LiveTradingPage() {
   let streams = [];
   try {
     const { supabase } = await import('@/lib/supabase');
-    const { data, error } = await supabase
-      .from('LiveStream')
-      .select('*')
-      .order('created_at', { ascending: false });
+    if (supabase) {
+      const { data, error } = await supabase
+        .from('LiveStream')
+        .select('*')
+        .order('created_at', { ascending: false });
 
-    if (!error && data) {
-      streams = data;
+      if (!error && data) {
+        streams = data;
+      }
     }
   } catch (error) {
     console.error('Failed to fetch livestreams:', error);
