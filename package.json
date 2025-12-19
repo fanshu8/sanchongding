@@ -1,6 +1,6 @@
 {
   "name": "pinbar-trader-app",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@10.18.3",
   "scripts": {
