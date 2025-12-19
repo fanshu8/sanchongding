@@ -1,5 +1,32 @@
 import LocaleLink from '@/components/navigation/LocaleLink';
-import type { EducationPageContent } from '@/content/education/forex-basics.content';
+// 临时定义 EducationPageContent 类型，避免构建失败
+// 后续请从真实路径导入或补充对应模块
+interface EducationPageContent {
+  heroTitle: string;
+  heroDescription: string;
+  readingTime: string;
+  difficulty: string;
+  lastUpdated: string;
+  tocTitle: string;
+  tableOfContents: { id: string; title: string }[];
+  faqTitle: string;
+  faqs: { question: string; answer: string }[];
+  relatedTitle: string;
+  relatedResources: {
+    icon: string;
+    title: string;
+    description: string;
+    href: string;
+  }[];
+  ctaTitle: string;
+  ctaDescription: string;
+  ctaPrimaryButton: string;
+  ctaSecondaryButton: string;
+  footerPrevText: string;
+  footerPrevHref?: string;
+  footerNextText: string;
+  footerNextHref?: string;
+}
 
 interface EducationPageTemplateProps {
   content: EducationPageContent;
