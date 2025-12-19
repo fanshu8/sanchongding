@@ -1,5 +1,5 @@
 import LocaleLink from '@/components/navigation/LocaleLink';
-import { EducationPageContent } from '@/content/education/forex-basics.content';
+import type { EducationPageContent } from '@/content/education/forex-basics.content';
 
 interface EducationPageTemplateProps {
   content: EducationPageContent;
@@ -7,6 +7,14 @@ interface EducationPageTemplateProps {
   language?: 'zh' | 'en'; // Optional language parameter
 }
 
+/**
+ * EducationPageTemplate
+ * 教育文章统一页面模板：渲染面包屑、头部信息、目录、正文、FAQ、相关推荐与页脚导航
+ * @param content 页面文案与结构化内容（双语）
+ * @param children 文章主体内容（各 section）
+ * @param language 语言标识（可选，默认依据 heroTitle 判定）
+ * @returns 完整的教育文章页面
+ */
 export default function EducationPageTemplate({
   content,
   children,
