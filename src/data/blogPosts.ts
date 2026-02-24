@@ -513,7 +513,7 @@ export const blogPosts: BlogPost[] = [
 <div class="flex-grow">
 <p class="text-xl font-bold mb-2 text-black dark:text-white">邮件联系团队长</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">通过邮件提交你的申请资料，包括：个人简历、学历证明、心理测评结果、申请理由（200字以内）。</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：2424802244@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：3421185040@qq.com</p>
 </div>
 </div>
 </div>
@@ -943,7 +943,7 @@ export const blogPosts: BlogPost[] = [
 <div class="flex-grow">
 <p class="text-xl font-bold mb-2 text-black dark:text-white">Email Team Leader</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Submit your application materials via email, including: resume, education certificates, psychological assessment results, application reason (within 200 words).</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">Email: 2424802244@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">Email: 3421185040@qq.com</p>
 </div>
 </div>
 </div>
@@ -1028,7 +1028,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">Are you ready to accept the challenge?</p>
-<p class="text-lg text-center text-white dark:text-black">Email us: 2424802244@qq.com</p>
+<p class="text-lg text-center text-white dark:text-black">Email us: 3421185040@qq.com</p>
 </div>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Risk Warning:</strong> Forex trading carries risk, investment requires caution. Site content for learning reference only, not investment advice.</p>
@@ -1249,7 +1249,7 @@ export const blogPosts: BlogPost[] = [
 <div class="text-center bg-gray-50 dark:bg-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700">
 <h3 class="text-2xl font-bold mb-4 text-black dark:text-white">准备好开始你的数字货币交易之旅了吗？</h3>
 <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">三重鼎(Suncheer Forex)提供系统化的数字货币交易员培训，从基础知识到实战技巧，全方位提升你的交易能力。</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：2424802244@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：3421185040@qq.com</p>
 </div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Cryptocurrency Trading Fundamentals</h1>
 
@@ -1306,7 +1306,7 @@ export const blogPosts: BlogPost[] = [
 <div class="text-center bg-gray-50 dark:bg-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700">
 <h3 class="text-2xl font-bold mb-4 text-black dark:text-white">Ready to Start Your Crypto Trading Journey?</h3>
 <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">Suncheer Forex provides systematic cryptocurrency trader training, from fundamentals to advanced strategies, to elevate your trading skills comprehensively.</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">Email: 2424802244@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">Email: 3421185040@qq.com</p>
 </div>`
  },
  category: 'education',

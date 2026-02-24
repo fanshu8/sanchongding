@@ -16,7 +16,7 @@ export default function FloatingContactForm() {
   const { language } = useLanguage();
   const isZh = language === 'zh';
 
-  const emailAddress = "2424802244@qq.com";
+  const emailAddress = "3421185040@qq.com";
   const siteUrl = "https://sanchongding.com";
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -165,7 +165,7 @@ export default function FloatingContactForm() {
                     {isZh ? '发送失败' : 'Send Failed'}
                   </h4>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
-                    {isZh ? '请稍后重试或直接发送邮件至 2424802244@qq.com' : 'Please try again later or email us directly at 2424802244@qq.com'}
+                    {isZh ? '请稍后重试或直接发送邮件至 3421185040@qq.com' : 'Please try again later or email us directly at 3421185040@qq.com'}
                   </p>
                   <button
                     onClick={() => setSubmitStatus('idle')}
